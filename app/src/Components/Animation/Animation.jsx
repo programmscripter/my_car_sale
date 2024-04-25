@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from '../../Scss/animation.module.scss';
+import classes from '../../Scss/animation.module.css';
 import video from '../../Videos/Mercedes_video.mp4';
 import ReactPlayer from 'react-player';
 
 const Animation = () => {
   return (
-    <div className={styles.main_block}>
-      <div className={styles.video_block}>
+    <div className={classes.main_block}>
+      <div className={classes.video_block}>
         <ReactPlayer 
           url={video}
           playing
@@ -16,7 +16,7 @@ const Animation = () => {
           height="auto"
         />
       </div>
-      <div className={styles.blur}></div>
+      <div className={classes.blur}></div>
     </div>
   )
 }
