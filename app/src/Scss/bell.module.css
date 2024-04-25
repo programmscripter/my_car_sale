@@ -1,68 +1,66 @@
-@use './main.scss';
-
 .block {
-    position: var($fixed;
+    position: var(--fixed);
     top: 75px;
     right: 195px;
     z-index: 1000;
-    background: var($bg_fff;
-    border-top: 1px var($solid var($color_000;
-    overflow: var($hidden;
+    background: var(--bg_fff);
+    border-top: 1px var(--solid) var(--color_000);
+    overflow: var(--hidden);
     width: 370px;
     height: 240px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
-    border: 1px var($solid var($color_000;
+    border: 1px var(--solid) var(--color_000);
 }
 
-.block_inner {
-    overflow-x: var($hidden;
-    overflow-y: var($auto;
-    text-align: var($center;
-    display: var($grid;
-    grid-template-columns: var($auto;
+.block .block_inner {
+    overflow-x: var(--hidden);
+    overflow-y: var(--auto);
+    text-align: var(--center);
+    display: var(--grid);
+    grid-template-columns: var(--auto);
     row-gap: 10px;
 }
 
-.img_block {
-    display: var($grid;
-    grid-template-columns: var($auto;
+.block .block_inner .img_block {
+    display: var(--grid);
+    grid-template-columns: var(--auto);
     row-gap: 10px;
-    justify-content: var($center;
-    align-items: var($center;
-    width: var($auto;
+    justify-content: var(--center);
+    align-items: var(--center);
+    width: var(--auto);
 }
 
 .check_icon {
-    font-family: var($font_family;
+    font-family: var(--font_family);
     font-size: 60px;
-    color: var($color_rgb_7_181_7;
-    display: var($flex;
-    justify-content: var($center;
-    align-items: var($center;
+    color: var(--color_rgb_7_181_7);
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
     padding-top: 8px;
 }
 
 .check_icon .title {
-    font-family: var($font_family;
-    color: var($color_000;
+    font-family: var(--font_family);
+    color: var(--color_000);
     font-size: 20px;
     width: 200px;
     font-weight: 600;
-    text-align: var($center;
+    text-align: var(--center);
 }
 
 .txt_block {
-    display: var($flex;
-    justify-content: var($center;
-    align-items: var($center;
-    position: var($relative;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    position: var(--relative);
     top: -25px;
 }
 
 .txt_block p {
-    font-family: var($font_family;
-    color: var($color_000;
+    font-family: var(--font_family);
+    color: var(--color_000);
     font-weight: 500;
     font-size: 17px;
     width: 240px;
