@@ -7,11 +7,10 @@
         overflow: main.$hidden;
         
         .top_content {
-            position: main.$absolute;
-            top: 145px;
             display: main.$flex;
             justify-content: main.$center;
             align-items: main.$center;
+            position: main.$relative;
         }
     }
 }
