@@ -25,6 +25,10 @@
             display: main.$grid;
             grid-template-columns: main.$auto;
             row-gap: 12px;
+
+            .title {
+                font-family: main.$font_family;
+            }
         }
     }
 }
