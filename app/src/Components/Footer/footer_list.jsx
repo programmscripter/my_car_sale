@@ -14,5 +14,6 @@ export const footer_menu_3 = [
 ]
 
 export const footer_menu_4 = [
-    'topçu.az IOS', 'topçu.az '
+    'topçu.az IOS', 'topçu.az Android',
+    'automobile.it'
 ]
