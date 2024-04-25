@@ -1,4 +1,8 @@
-const footer_menu = [
+export const footer_menu_1 = [
     'About us', 'Newsroom', 'Careers',
-    'Advertising', 'Help', ''
+    'Advertising', 'Help', 'Contact',
+]
+
+const footer_menu_2 = [
+    
 ]
