@@ -4,10 +4,11 @@ import Header from './Components/Header/Header';
 import Profile_page from './Pages/Profile_page/Profile_page';
 import Register_page from './Pages/Register_page/Register_page';
 import Footer from './Components/Footer/Footer';
+import class
 
 function App() {
   return (
-    <div className='container'>
+    <div className={classes.container}>
       <Router>
         <Header />
         <Routes>

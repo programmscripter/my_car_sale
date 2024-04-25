@@ -41,7 +41,7 @@
     padding-top: 8px;
 }
 
-.check_icon .title {
+.block .block_inner .img_block .title {
     font-family: var(--font_family);
     color: var(--color_000);
     font-size: 20px;
@@ -50,7 +50,7 @@
     text-align: var(--center);
 }
 
-.txt_block {
+.block .block_inner .txt_block {
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
@@ -58,7 +58,7 @@
     top: -25px;
 }
 
-.txt_block p {
+.block .block_inner .txt_block p {
     font-family: var(--font_family);
     color: var(--color_000);
     font-weight: 500;
