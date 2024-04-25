@@ -4,8 +4,12 @@
     display: main.$flex;
     justify-content: main.$center;
     align-items: main.$center;
+    position: main.$relative;
 
     .block {
+        position: main.$absolute;
+        top: 0;
+
         .block_inner {
             height: main.$auto;
             max-width: 300px;
