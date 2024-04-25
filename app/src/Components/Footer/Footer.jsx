@@ -12,6 +12,9 @@ const Footer = () => {
     <div className={styles.main_block}>
       <div className={styles.main_block_inner}>
         <div className={styles.block}>
+          
+        </div>
+        <div className={styles.block}>
           <p className={styles.title}>{title_1}</p>
           {footer_menu_1.map((item, index) => {
             return (
