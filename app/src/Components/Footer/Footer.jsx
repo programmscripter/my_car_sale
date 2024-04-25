@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.block}>
         <div className={styles.block_inner}>
-            Footer
+            
         </div>
     </div>
   )
