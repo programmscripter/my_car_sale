@@ -31,7 +31,7 @@
     width: var(--auto);
 }
 
-.check_icon {
+.block .block_inner .img_block .check_icon {
     font-family: var(--font_family);
     font-size: 60px;
     color: var(--color_rgb_7_181_7);
