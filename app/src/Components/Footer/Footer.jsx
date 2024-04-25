@@ -9,8 +9,8 @@ const Footer = () => {
   const title_3 = "Dealer";
   const title_4 = "Popular";
   return (
-    <div className={styles.block}>
-      <div className={styles.block_inner}>
+    <div className={styles.main_block}>
+      <div className={styles.main_block_inner}>
         <div className={styles.block}>
           <p>{title_1}</p>
           {footer_menu_1.map((item, index) => {

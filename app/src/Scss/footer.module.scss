@@ -1,5 +1,14 @@
 @use './main.scss';
 
-.block {
-    
+.main_block {
+    position: main.$relative;
+
+    .main_block_inner {
+        max-width: 1230px;
+        margin: main.$margin-0-auto;
+
+        .block {
+            
+        }
+    }
 }
