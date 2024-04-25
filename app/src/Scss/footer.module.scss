@@ -17,9 +17,9 @@
         margin: main.$margin-0-auto;
         display: main.$grid;
         justify-content: main.$center;
-        align-items: main.$center;
+        align-items: main.$start;
         grid-template-columns: main.$auto main.$auto main.$auto main.$auto;
-        column-gap: 30px;
+        column-gap: 80px;
 
         .block {
             display: main.$grid;
