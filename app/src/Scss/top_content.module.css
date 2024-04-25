@@ -1,0 +1,38 @@
+.main_block {
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    position: var(--relative);
+}
+
+.block {
+    position: var(--absolute);
+    top: 150px;
+}
+
+.block_inner {
+    height: var(--auto);
+    max-width: 300px;
+    overflow: var(--hidden);
+    text-align: var(--center);
+}
+
+p {
+    font-family: var(--font_family);
+    color: var(--color_fff);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+Button {
+    font-family: var(--font_family);
+    text-transform: var(--inherit);
+    color: var(--color_000);
+    background: var(--bg_fff);
+    color: var(--color_000);
+    font-size: 15.3px;
+    width: 300px;
+    height: 55px;
+    border-radius: 30px;
+    font-weight: 600;
+}

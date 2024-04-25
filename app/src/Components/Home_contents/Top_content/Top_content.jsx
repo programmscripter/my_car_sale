@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import styles from '../../../Scss/top_content.module.scss';
+import classes from '../../../Scss/top_content.module.css';
 
 const Top_content = () => {
     const txt = "Welcome to our site! Want to start working?";
