@@ -8,7 +8,7 @@ const Logination = () => {
   const title = "Log In";
   const btn_txt = "Ok";
 
-  const [isButtonClick, setIsButtonClick] = useState(false);
+  const [isButtonClick] = useState(false);
 
   const [password, setPassword] = useState('');
   const [username, setUsername] = useState('');
