@@ -31,26 +31,26 @@ const Menu = () => {
   }
 
   return (
-    <div className={styles.menu}>
-      <Button onClick={handleMenu_btnClick} className={styles.menu_btn}>
+    <div className={classes.menu}>
+      <Button onClick={handleMenu_btnClick} className={classes.menu_btn}>
         <Menu_icon />
       </Button>
-      <Button onClick={handleBell_btnClick} className={styles.bell_btn}>
+      <Button onClick={handleBell_btnClick} className={classes.bell_btn}>
         <Bell_icon />
       </Button>
       <Link to={'register page'}>
-        <Button className={styles.user_btn}>
+        <Button className={classes.user_btn}>
           <User_icon />
         </Button>
       </Link>
       <Link to={'register page'}>
-        <Button className={styles.reg_btn}>{txt}</Button>
+        <Button className={classes.reg_btn}>{txt}</Button>
       </Link>
       {buttonClick && (
-        <div className={styles.hover_box}>
+        <div className={classes.hover_box}>
           <Search />
-          <div className={styles.hover_box_inner}>
-            <div className={styles.block}>
+          <div className={classes.hover_box_inner}>
+            <div className={classes.block}>
               <p>{_title_1}</p>
               {menu_list_1.map((item, index) => {
                 return (
@@ -68,7 +68,7 @@ const Menu = () => {
                 )
               })}
             </div>
-            <div className={styles.block}>
+            <div className={classes.block}>
               <p>{_title_3}</p>
               {menu_list_3.map((item, index) => {
                 return (
@@ -86,7 +86,7 @@ const Menu = () => {
                 )
               })}
             </div>
-            <div className={styles.block}>
+            <div className={classes.block}>
               <p>{_title_5}</p>
               {menu_list_5.map((item, index) => {
                 return (
