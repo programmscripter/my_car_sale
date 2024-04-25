@@ -4,11 +4,11 @@ import Header from './Components/Header/Header';
 import Profile_page from './Pages/Profile_page/Profile_page';
 import Register_page from './Pages/Register_page/Register_page';
 import Footer from './Components/Footer/Footer';
-import class
+import './Scss/main.css';
 
 function App() {
   return (
-    <div className={classes.container}>
+    <div className="container">
       <Router>
         <Header />
         <Routes>

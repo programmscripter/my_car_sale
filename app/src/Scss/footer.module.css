@@ -1,5 +1,3 @@
-@use './main.scss';
-
 .main_block {
     position: main.$relative;
     top: 65px;
