@@ -1,3 +1,3 @@
-const menu = [
+const footer_menu = [
     
 ]
