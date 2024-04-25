@@ -3,6 +3,6 @@ export const footer_menu_1 = [
     'Advertising', 'Help', 'Contact',
 ]
 
-const footer_menu_2 = [
+export const footer_menu_2 = [
     
 ]
