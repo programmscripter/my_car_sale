@@ -12,7 +12,7 @@ const Footer = () => {
     <div className={styles.main_block}>
       <div className={styles.main_block_inner}>
         <div className={styles.block}>
-          <p>{title_1}</p>
+          <p className={styles.title}>{title_1}</p>
           {footer_menu_1.map((item, index) => {
             return (
               <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
@@ -20,7 +20,7 @@ const Footer = () => {
           })}
         </div>
         <div className={styles.block}>
-          <p>{title_2}</p>
+          <p className={styles.title}>{title_2}</p>
           {footer_menu_2.map((item, index) => {
             return (
               <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
@@ -28,7 +28,7 @@ const Footer = () => {
           })}
         </div>
         <div className={styles.block}>
-          <p>{title_3}</p>
+          <p className={styles.title}>{title_3}</p>
           {footer_menu_3.map((item, index) => {
             return (
               <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
@@ -36,7 +36,7 @@ const Footer = () => {
           })}
         </div>
         <div className={styles.block}>
-          <p>{title_4}</p>
+          <p className={styles.title}>{title_4}</p>
           {footer_menu_4.map((item, index) => {
             return (
               <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
