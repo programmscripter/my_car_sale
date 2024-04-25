@@ -1,3 +1,12 @@
-.block {
+.block_inner {
+    max-width: 1250px;
+    margin: var(--margin_0_auto);
+    overflow: var(--hidden);
+}
 
+.block_inner .top_content {
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    position: var(--relative);
 }
