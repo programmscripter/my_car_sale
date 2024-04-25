@@ -10,7 +10,7 @@
     align-items: var(--center);
 }
 
-.main_block_inner {
+.main_block .main_block_inner {
     max-width: 1230px;
     margin: var(--margin)-0-auto;
     display: var(--grid);
@@ -20,19 +20,19 @@
     column-gap: 80px;
 }
 
-.block {
+.main_block .main_block_inner .block {
     display: var(--grid);
     grid-template-columns: var(--auto);
     row-gap: 12px;
 }
 
-.title {
+.main_block .main_block_inner .block .title {
     font-family: var(--font_family_2);
     font-weight: 600;
     font-size: 14px;
 }
 
-a {
+.main_block .main_block_inner .block a {
     font-family: var(--font_family_2);
     font-size: 13.8px;
     font-weight: 500;
