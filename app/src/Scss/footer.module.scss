@@ -2,10 +2,12 @@
 
 .main_block {
     position: main.$relative;
-    top: 0;
+    top: 20px;
     bottom: 0;
     left: 0;
     right: 0;
+    border: 1px solid black;
+    height: 400px;
 
     .main_block_inner {
         max-width: 1230px;
