@@ -6,3 +6,7 @@ export const footer_menu_1 = [
 export const footer_menu_2 = [
     
 ]
+
+export const footer_menu_3 = [
+    
+]
