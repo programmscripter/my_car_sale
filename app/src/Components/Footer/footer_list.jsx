@@ -13,7 +13,9 @@ export const footer_menu_3 = [
     'Terms and Conditions'
 ]
 
-export const footer_menu_4 = [
+const footer_menu_4 = [
     'topçu.az IOS', 'topçu.az Android',
     'automobile.it'
 ]
+
+export default footer_menu_4
