@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../../../Scss/logination.module.scss';
+import classes from '../../../Scss/logination.module.css';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
@@ -36,11 +36,11 @@ const Logination = () => {
   return (
     <>
       <div style={{ display: isButtonClick ? 'none' : 'block', paddingTop: '220px' }}>
-        <div className={styles.block_inner}>
-          <div className={styles.top_block}>
-            <p className={styles.title}>{title}</p>
+        <div className={classes.block_inner}>
+          <div className={classes.top_block}>
+            <p className={classes.title}>{title}</p>
           </div>
-          <div className={styles.center_block}>
+          <div className={classes.center_block}>
             <TextField
               style={{ border: isUsernameEmpty ? '1px solid red' : '' }}
               id="filled-basic"
@@ -62,9 +62,9 @@ const Logination = () => {
               variant="filled"
             />
           </div>
-          <div className={styles.bottom_block}>
+          <div className={classes.bottom_block}>
             <Link to={'/profile page'}>
-              <Button className={styles.log_in_btn} onClick={handleSubmit}>{btn_txt}</Button>
+              <Button className={classes.log_in_btn} onClick={handleSubmit}>{btn_txt}</Button>
             </Link>
           </div>
         </div>

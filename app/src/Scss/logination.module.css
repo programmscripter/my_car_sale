@@ -1,5 +1,3 @@
-@use './main.scss';
-
 .block_inner {
     background: main.$bg_fff;
     border-radius: 7px;
