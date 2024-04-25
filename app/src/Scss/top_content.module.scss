@@ -5,7 +5,8 @@
     justify-content: main.$center;
     align-items: main.$center;
     position: main.$relative;
-    top: 0;
+    top: -100px;
+    z-index: 1000;
 
     .block {
         .block_inner {
