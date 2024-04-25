@@ -14,7 +14,10 @@ const Footer = () => {
         <div className={styles.block}>
           <p>{title_1}</p>
           {footer_menu_1.map((item, index) => {
-            <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
+            return (
+              <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
+
+            )
           })}
         </div>
         <div className={styles.block}>
@@ -26,13 +29,19 @@ const Footer = () => {
         <div className={styles.block}>
           <p>{title_3}</p>
           {footer_menu_3.map((item, index) => {
+            return (
             <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
+
+            )
           })}
         </div>
         <div className={styles.block}>
           <p>{title_4}</p>
           {footer_menu_4.map((item, index) => {
+            return (
             <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
+
+            )
           })}
         </div>
       </div>
