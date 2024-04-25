@@ -1,29 +1,29 @@
 .block_inner {
-    background: var(--bg_fff;
+    background: var(--bg_fff);
     border-radius: 7px;
-    border: 1px var(--solid var(--color_000;
+    border: 1px var(--solid) var(--color_000);
     max-width: 470px;
-    margin: var(--margin-0-auto;
-    overflow: var(--hidden;
-    text-align: var(--center;
+    margin: var(--margin)-0-auto;
+    overflow: var(--hidden);
+    text-align: var(--center);
     padding: 10px 25px;
 }
 
-.top_block {
-    border-bottom: 1px var(--solid var(--color_000;
+.block_inner .top_block {
+    border-bottom: 1px var(--solid) var(--color_000);
 }
 
-.title {
-    font-family: var(--font_family;
-    color: var(--color_000;
+.block_inner .top_block .title {
+    font-family: var(--font_family);
+    color: var(--color_000);
     font-weight: 600;
     font-size: 22px;
 }
 
-.center_block {
+.block_inner .center_block {
     padding-top: 25px;
-    display: var(--grid;
-    grid-template-columns: var(--auto;
+    display: var(--grid);
+    grid-template-columns: var(--auto);
     row-gap: 10px;
     column-gap: 10px;
 }
@@ -34,9 +34,9 @@
 }
 
 .log_in_btn {
-    font-family: var(--font_family;
-    color: var(--color_fff;
-    background: var(--bg_000;
+    font-family: var(--font_family);
+    color: var(--color_fff);
+    background: var(--bg_000);
     border-radius: 30px;
     padding: 10px 30px;
     width: 200px;
