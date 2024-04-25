@@ -1,0 +1,32 @@
+@use './main.scss';
+
+.block {
+    padding-top: 150px;
+
+    .block_inner {
+        height: main.$auto;
+        max-width: 300px;
+        overflow: main.$hidden;
+        text-align: main.$center;
+
+        p {
+            font-family: main.$font_family;
+            color: main.$color_fff;
+            font-weight: 600;
+            font-size: 25px;
+        }
+
+        Button {
+            font-family: main.$font_family;
+            text-transform: main.$inherit;
+            color: main.$color_000;
+            background: main.$bg_fff;
+            color: main.$color_000;
+            font-size: 15.3px;
+            width: 300px;
+            height: 55px;
+            border-radius: 30px;
+            font-weight: 600;
+        }
+    }
+}

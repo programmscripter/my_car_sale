@@ -1,0 +1,42 @@
+$color_fff: #fff;
+$color_000: #000;
+$bg_fff: #fff;
+$bg_4a4a4a: #4a4a4a;
+$color_rgb_7_181_7: rgb(7, 181, 7);
+$bg_000: #000;
+$font_family: "Nunito", sans-serif;
+$margin-0-auto: 0 auto;
+$auto: auto;
+$center: center;
+$cover: cover;
+$relative: relative;
+$flex: flex;
+$hidden: hidden;
+$fixed: fixed;
+$space_between: space-between;
+$blur_30: blur(30px);
+$blur_3: blur(3px);
+$inherit: inherit;
+$infinite: infinite;
+$ease-in-out: ease-in-out;
+$absolute: absolute;
+$grid: grid;
+$solid: solid;
+$color_929292: #929292;
+$color_d6d6d6: #d6d6d6;
+$color_5d08dc: #5d08dc;
+$none: none;
+$start: start;
+$underline: underline;
+$pointer: pointer;
+
+.container {
+    max-width: 1536px;
+    margin: $margin-0-auto;
+    overflow: $hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,17 @@
+@use './main.scss';
+
+.block {
+    .block_inner {
+        max-width: 1250px;
+        margin: main.$margin_0_auto;
+        overflow: main.$hidden;
+        
+        .top_content {
+            position: main.$absolute;
+            top: 145px;
+            display: main.$flex;
+            justify-content: main.$center;
+            align-items: main.$center;
+        }
+    }
+}

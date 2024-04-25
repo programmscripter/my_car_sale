@@ -1,0 +1,69 @@
+@use './main.scss';
+
+.block {
+    position: main.$fixed;
+    top: 75px;
+    right: 195px;
+    z-index: 1000;
+    background: main.$bg_fff;
+    border-top: 1px main.$solid main.$color_000;
+    overflow: main.$hidden;
+    width: 370px;
+    height: 240px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px main.$solid main.$color_000;
+
+    .block_inner {
+        overflow-x: main.$hidden;
+        overflow-y: main.$auto;
+        text-align: main.$center;
+        display: main.$grid;
+        grid-template-columns: main.$auto;
+        row-gap: 10px;
+
+        .img_block {
+            display: main.$grid;
+            grid-template-columns: main.$auto;
+            row-gap: 10px;
+            justify-content: main.$center;
+            align-items: main.$center;
+            width: main.$auto;
+
+            .check_icon {
+                font-family: main.$font_family;
+                font-size: 60px;
+                color: main.$color_rgb_7_181_7;
+                display: main.$flex;
+                justify-content: main.$center;
+                align-items: main.$center;
+                padding-top: 8px;
+            }
+
+            .title {
+                font-family: main.$font_family;
+                color: main.$color_000;
+                font-size: 20px;
+                width: 200px;
+                font-weight: 600;
+                text-align: main.$center;
+            }
+        }
+
+        .txt_block {
+            display: main.$flex;
+            justify-content: main.$center;
+            align-items: main.$center;
+            position: main.$relative;
+            top: -25px;
+
+            p {
+                font-family: main.$font_family;
+                color: main.$color_000;
+                font-weight: 500;
+                font-size: 17px;
+                width: 240px;
+            }
+        }
+    }
+}

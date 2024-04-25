@@ -1,0 +1,46 @@
+@use './main.scss';
+
+.search {
+    background: main.$bg_fff;
+    border-radius: 30px;
+    width: 1200px;
+    height: 40px;
+    border: 1.6px main.$solid main.$color_000;
+    overflow: main.$hidden;
+    display: main.$flex;
+    align-items: main.$center;
+    padding-top: 5px;
+
+    .search_inner {
+        display: main.$flex;
+        justify-content: main.$center;
+        align-items: main.$center;
+        height: 100%;
+        overflow: main.$hidden;
+        position: main.$relative;
+        top: -2px;
+
+        input {
+            width: 1090px;
+            border: main.$none;
+            outline: main.$none;
+            font-family: main.$font_family;
+            color: main.$color_000;
+            padding-left: 28px;
+            font-size: 14.6px;
+            height: 40px;
+
+            &::placeholder {
+                font-family: main.$font_family;
+                font-size: 14.6px;
+            }
+        }
+
+        Button {
+            font-family: main.$font_family;
+            font-size: 20px;
+            color: main.$color_000;
+            height: 100%;
+        }
+    }
+}

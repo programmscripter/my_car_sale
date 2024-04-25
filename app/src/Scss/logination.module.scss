@@ -1,0 +1,46 @@
+@use './main.scss';
+
+.block_inner {
+    background: main.$bg_fff;
+    border-radius: 7px;
+    border: 1px main.$solid main.$color_000;
+    max-width: 470px;
+    margin: main.$margin-0-auto;
+    overflow: main.$hidden;
+    text-align: main.$center;
+    padding: 10px 25px;
+
+    .top_block {
+        border-bottom: 1px main.$solid main.$color_000;
+
+        .title {
+            font-family: main.$font_family;
+            color: main.$color_000;
+            font-weight: 600;
+            font-size: 22px;
+        }
+    }
+
+    .center_block {
+        padding-top: 25px;
+        display: main.$grid;
+        grid-template-columns: main.$auto;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .bottom_block {
+        padding-top: 15px;
+        padding-bottom: 5px;
+
+        .log_in_btn {
+            font-family: main.$font_family;
+            color: main.$color_fff;
+            background: main.$bg_000;
+            border-radius: 30px;
+            padding: 10px 30px;
+            width: 200px;
+            font-weight: 600;
+        }
+    }
+}

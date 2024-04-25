@@ -1,0 +1,95 @@
+@use './main.scss';
+
+.menu {
+    display: main.$flex;
+    align-items: main.$center;
+    column-gap: 10px;
+    
+    .menu_btn {
+        font-family: main.$font_family !important;
+        text-transform: main.$inherit !important;
+        color: main.$color_000 !important;
+        font-size: 30px;
+    }
+
+    .bell_btn {
+        font-family: main.$font_family !important;
+        text-transform: main.$inherit !important;
+        color: main.$color_000 !important;
+        font-size: 23px; 
+    }
+
+    .user_btn {
+        font-family: main.$font_family !important;
+        text-transform: main.$inherit !important;
+        color: main.$color_000 !important;
+        font-size: 23px;
+    }
+
+    .reg_btn {
+        background: main.$bg_000;
+        color: main.$color_fff;
+        text-transform: main.$inherit;
+        font-family: main.$font_family;
+        font-weight: 600;
+        font-size: 14px;
+        border-radius: 26px;
+        width: 120px;
+        height: 44px;
+
+        &:hover {
+            background: main.$bg_4a4a4a;
+        }
+    }
+
+    .hover_box {
+        position: main.$fixed;
+        height: 400px;
+        width: 1210px;
+        top: 75px;
+        background: main.$bg_fff;
+        padding: 10px 20px;
+        right: 140px;
+        overflow-y: main.$hidden;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border-top: 1px main.$solid main.$color_000;
+        padding: 15px 18px;
+        border: 1px main.$solid main.$color_000;
+
+        .hover_box_inner {
+            height: 390px;
+            display: main.$grid;
+            grid-template-columns: main.$auto main.$auto main.$auto;
+            justify-content: main.$center;
+            padding-top: 10px;
+            column-gap: 180px;
+            overflow-y: main.$auto;
+            overflow-x: main.$hidden;
+
+            .block {
+                display: main.$grid;
+                grid-template-columns: main.$auto;
+                padding-bottom: 60px;
+                row-gap: 8px;
+
+                p {
+                    font-family: main.$font_family;
+                    color: main.$color_000;
+                    font-weight: 600;
+                }
+
+                Button {
+                    font-family: main.$font_family;
+                    color: main.$color_000;
+                    text-transform: main.$inherit;
+                    background: main.$bg_fff;
+                    display: main.$flex;
+                    justify-content: main.$start;
+                    align-items: main.$center;
+                    width: main.$auto;
+                }
+            }
+        }
+    }
+}
