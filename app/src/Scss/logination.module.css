@@ -28,12 +28,12 @@
     column-gap: 10px;
 }
 
-.bottom_block {
+.block_inner .bottom_block {
     padding-top: 15px;
     padding-bottom: 5px;
 }
 
-.log_in_btn {
+.block_inner .bottom_block a .log_in_btn {
     font-family: var(--font_family);
     color: var(--color_fff);
     background: var(--bg_000);
