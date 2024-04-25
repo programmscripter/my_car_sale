@@ -10,3 +10,7 @@ export const footer_menu_2 = [
 export const footer_menu_3 = [
     
 ]
+
+export const footer_menu_4 = [
+    
+]

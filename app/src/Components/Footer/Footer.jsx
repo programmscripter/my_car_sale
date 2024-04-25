@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../Scss/footer.module.scss';
 import { Link } from 'react-router-dom';
-import { footer_menu_1, footer_menu_2, footer_menu_3 } from './footer_list';
+import { footer_menu_1, footer_menu_2, footer_menu_3, footer_menu_4 } from './footer_list';
 
 const Footer = () => {
   const title_1 = "Company";
@@ -26,6 +26,12 @@ const Footer = () => {
         <div className={styles.block}>
           <p>{title_3}</p>
           {footer_menu_3.map((item, index) => {
+            <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
+          })}
+        </div>
+        <div className={styles.block}>
+          <p>{title_4}</p>
+          {footer_menu_4.map((item, index) => {
             <Link key={index} to={index == -1 ? "/" : `/${item}`}>{item}</Link>
           })}
         </div>
