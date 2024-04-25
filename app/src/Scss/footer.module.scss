@@ -2,12 +2,15 @@
 
 .main_block {
     position: main.$relative;
-    top: 20px;
+    top: 65px;
     bottom: 0;
     left: 0;
     right: 0;
     border: 1px solid black;
     height: 400px;
+    display: main.$flex;
+    justify-content: main.$center;
+    align-items: main.$center;
 
     .main_block_inner {
         max-width: 1230px;
@@ -16,7 +19,7 @@
         justify-content: main.$center;
         align-items: main.$center;
         grid-template-columns: main.$auto main.$auto main.$auto main.$auto;
-        column-gap: 20px;
+        column-gap: 30px;
 
         .block {
             display: main.$grid;
