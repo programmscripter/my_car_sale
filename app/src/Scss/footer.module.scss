@@ -7,6 +7,8 @@
         max-width: 1230px;
         margin: main.$margin-0-auto;
         display: main.$grid;
+        justify-content: main.$center;
+        align-items: main.$center;
         grid-template-columns: main.$auto main.$auto main.$auto main.$auto;
         column-gap: 20px;
 
