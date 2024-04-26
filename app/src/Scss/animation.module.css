@@ -1,6 +1,8 @@
 .video_block {
     position: var(--relative);
     top: 70px;
+    max-height: 500px;
+    overflow: var(--hidden);
 }
 
 .video_block .video {
