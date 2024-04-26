@@ -4,7 +4,6 @@ a {
 
 a .block {
     padding-top: 15px;
-    background: var(--bg_4a4a4a);
     display: var(--grid);
     grid-template-columns: var(--auto);
     text-align: var(--center);
