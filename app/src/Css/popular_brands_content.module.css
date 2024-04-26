@@ -3,9 +3,10 @@
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 68px;
+    padding-bottom: 75px;
     height: 400px;
-    top: 75px;
+    top: 100px;
+    z-index: 1000;
 }
 
 .main_block .main_block_inner {
@@ -15,6 +16,7 @@
     background: var(--bg_4a4a4a);
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 18px;
     border-radius: 3px;
 }
 
