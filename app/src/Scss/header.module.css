@@ -5,6 +5,9 @@
     background: var(--bg_fff);
     z-index: 1000;
     border-bottom: 1.4px var(--solid) var(--color_929292);
+    max-width: 1300px;
+    margin: var(--margin_0_auto);
+    overflow: var(--hidden);
 }
 
 .block .block_inner {
