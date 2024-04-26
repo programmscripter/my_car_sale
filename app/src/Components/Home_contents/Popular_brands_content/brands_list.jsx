@@ -4,8 +4,8 @@ import BMW_img from '../../../Images/Brands_img/BMW_img.png';
 import Toyota_img from '../../../Images/Brands_img/Toyota_img.png';
 import Renault_img from '../../../Images/Brands_img/Renault_img.png';
 import Ford_img from '../../../Images/Brands_img/Ford_img.png';
-import Volvo_img from '../../../Images/Brands_img/Audi_img.png';
-import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Volvo_img from '../../../Images/Brands_img/Volvo_img.png';
+import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
 import Audi_img from '../../../Images/Brands_img/Audi_img.png';
 import Audi_img from '../../../Images/Brands_img/Audi_img.png';
 
