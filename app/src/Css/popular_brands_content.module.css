@@ -2,8 +2,9 @@
     position: var(--relative);
     padding: 20px 15px;
     height: 400px;
-    top: 30px;
+    top: 74px;
     background: var(--bg_fff);
+    border: 1px solid black;
 }
 
 .main_block .main_block_inner {
