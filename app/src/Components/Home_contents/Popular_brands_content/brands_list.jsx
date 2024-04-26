@@ -1,4 +1,4 @@
-import { Audi_icon } from "../../../Svg/svg";
+import { Audi_icon, BMW_icon, Mercedes_Benz_icon } from "../../../Svg/svg";
 
 export const brands_list = [
     {
@@ -6,11 +6,11 @@ export const brands_list = [
         title: 'Audi'
     },
     {
-        img: Mercedes_Benz_img,
+        img: <Mercedes_Benz_icon />,
         title: 'Mercedes-Benz'
     },
     {
-        img: BMW_img,
+        img: <BMW_icon/>,
         title: 'BMW'
     },
     {
