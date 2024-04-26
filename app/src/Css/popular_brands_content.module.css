@@ -12,7 +12,6 @@
     max-width: 1260px;
     margin: var(--margin_0_auto);
     overflow: var(--hidden);
-    background: var(--bg_4a4a4a);
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 18px;
@@ -21,7 +20,7 @@
 
 .main_block .main_block_inner .grid .title {
     font-family: var(--font_family);
-    color: var(--color_fff);
+    color: var(--color_000);
     font-weight: 600;
     font-size: 20px;
 }
