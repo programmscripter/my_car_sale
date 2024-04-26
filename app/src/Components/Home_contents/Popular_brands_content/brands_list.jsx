@@ -10,7 +10,7 @@ import Volkswagen_img from '../../../Images/Brands_img/Volkswagen_img.png';
 import Ford_img from '../../../Images/Brands_img/Ford_img.png';
 import Opel_img from '../../../Images/Brands_img/Opel_img.png';
 
-export const brands = [
+export const brands_list = [
     {
         img: Audi_img,
         title: 'Audi'
