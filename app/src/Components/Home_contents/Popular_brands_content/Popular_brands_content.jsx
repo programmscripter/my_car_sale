@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from '../../../Scss/popular_brands_content.module.css';
 import brands_list from './brands_list';
+import Brands_blocks from './Brands_blocks/Brands_blocks';
 
 const Popular_brands_content = () => {
   const title = "Popular Car Brands";
@@ -12,7 +13,10 @@ const Popular_brands_content = () => {
               <div className={classes.grid_inner}>
                 {brands_list.map((brand, index) => {
                   return (
-                    
+                    <Brands_blocks 
+                      key={index}
+                      img={}
+                    />
                   )
                 })}
               </div>
