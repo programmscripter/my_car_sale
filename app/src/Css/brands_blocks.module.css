@@ -9,13 +9,11 @@ a .block {
     text-align: var(--center);
     height: 140px;
     border: 1px var(--solid) var(--color_fff);
-    transition: 0.6s var(--ease_in_out);
-    transform: scale(1);
 }
 
 a .block:hover {
     transform: scale(1.1);
-    transition: 0.6s var(--ease_in_out);
+    box-shadow: 0 0 8px var(--color_000);
 }
 
 a .block .img_block img {
