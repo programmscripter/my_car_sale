@@ -36,7 +36,7 @@
 
 .container {
     max-width: 1536px;
-    margin: var(--margin-0-auto);
+    margin: var(--margin_0_auto);
     overflow: var(--hidden);
 }
 
