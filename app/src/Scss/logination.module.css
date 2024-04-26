@@ -3,7 +3,7 @@
     border-radius: 7px;
     border: 1px var(--solid) var(--color_000);
     max-width: 470px;
-    margin: var(--margin)-0-auto;
+    margin: var(--margin-0-auto);
     overflow: var(--hidden);
     text-align: var(--center);
     padding: 10px 25px;
