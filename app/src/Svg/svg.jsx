@@ -10,6 +10,13 @@ import { ReactComponent as Youtube_icon } from './footer_svg/youtube_icon.svg';
 import { ReactComponent as Instagram_icon } from './footer_svg/instagram_icon.svg';
 import { ReactComponent as Linkedin_icon } from './footer_svg/linkedin_icon.svg';
 import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
+import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
+import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
+import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
+import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
+import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
+import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
+import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
 
 export {
     Menu_icon,
@@ -22,5 +29,6 @@ export {
     Twitter_icon,
     Youtube_icon,
     Instagram_icon,
-    Linkedin_icon
+    Linkedin_icon,
+    Audi_icon
 }
