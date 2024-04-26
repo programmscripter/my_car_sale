@@ -28,8 +28,8 @@ export const brands_list = [
         title: 'BMW'
     },
     {
-        img: Renault_img,
-        title: 'Renault'
+        img: Toyota_img,
+        title: 'Toyota'
     },
     {
         img: Skoda_img,
