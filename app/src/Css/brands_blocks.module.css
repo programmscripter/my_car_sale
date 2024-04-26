@@ -10,3 +10,8 @@ a .block {
     text-align: var(--center);
     border-radius: 5px;
 }
+
+a .block .img_block img {
+    width: 45px;
+    height: 45px;
+}
