@@ -7,7 +7,7 @@ a .block {
     display: var(--grid);
     grid-template-columns: var(--auto);
     text-align: var(--center);
-    height: 140px;
+    height: 120px;
     border: 1px var(--solid) var(--color_fff);
     transition: 0.3s var(--ease_in_out);
     border-radius: 5px;
