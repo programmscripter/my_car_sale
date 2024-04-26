@@ -25,6 +25,10 @@
     font-size: 20px;
 }
 
+.main_block .main_block_inner .grid .line {
+    background: ;
+}
+
 .main_block .main_block_inner .grid .grid_inner {
     display: var(--grid);
     grid-template-columns: var(--auto) var(--auto) var(--auto) var(--auto) var(--auto) var(--auto);

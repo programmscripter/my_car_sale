@@ -10,6 +10,7 @@ const Popular_brands_content = () => {
         <div className={classes.main_block_inner}>
             <div className={classes.grid}>
               <p className={classes.title}>{title}</p>
+              <div className={classes.line}></div>
               <div className={classes.grid_inner}>
                 {brands_list.map((brand, index) => {
                   return (
