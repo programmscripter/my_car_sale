@@ -1,4 +1,6 @@
 import Audi_img from '../../../Images/Audi_img.png';
+import Mercedes_Benz_img from '../../../Images/Mercedes_Benz_img.png';
+
 
 export const brands = [
     {
@@ -6,7 +8,7 @@ export const brands = [
         title: 'Audi'
     },
     {
-        img: ,
+        img: Mercedes_Benz_img,
         title: ''
     },
     {
