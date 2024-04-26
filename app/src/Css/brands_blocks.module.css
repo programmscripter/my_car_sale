@@ -18,6 +18,10 @@ a .block:hover {
     box-shadow: 0 0 8px var(--color_000);
 }
 
+a .block:hover > .txt_block p {
+    text-decoration: var(--underline);
+}
+
 a .block .img_block img {
     width: 45px;
     height: 45px;
