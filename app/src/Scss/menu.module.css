@@ -68,20 +68,20 @@
     overflow-x: var(--hidden);
 }
 
-.block {
+.menu .hover_box .hover_box_inner .block {
     display: var(--grid);
     grid-template-columns: var(--auto);
     padding-bottom: 60px;
     row-gap: 8px;
 }
 
-p {
+.menu .hover_box .hover_box_inner .block p {
     font-family: var(--font_family);
     color: var(--color_000);
     font-weight: 600;
 }
 
-Button {
+.menu .hover_box .hover_box_inner .block a Button {
     font-family: var(--font_family);
     color: var(--color_000);
     text-transform: var(--inherit);
