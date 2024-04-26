@@ -12,7 +12,7 @@
 
 .main_block .main_block_inner {
     max-width: 1230px;
-    margin: var(--margin)-0-auto;
+    margin: var(--margin-0-auto);
     display: var(--grid);
     justify-content: var(--center);
     align-items: var(--start);

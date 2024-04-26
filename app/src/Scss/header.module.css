@@ -10,7 +10,7 @@
 .block .block_inner {
     max-width: 1230px;
     height: 100%;
-    margin: var(--margin)-0-auto;
+    margin: var(--margin-0-auto);
     overflow: var(--hidden);
     display: var(--flex);
     justify-content: var(--space_between);
