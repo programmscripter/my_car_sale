@@ -42,9 +42,9 @@
 }
 
 .block .block_inner .img_block .title {
-    font-family: var(--font_family);
+    font-family: var(--font_family_2);
     color: var(--color_000);
-    font-size: 20px;
+    font-size: 18px;
     width: 200px;
     font-weight: 600;
     text-align: var(--center);
@@ -59,9 +59,9 @@
 }
 
 .block .block_inner .txt_block p {
-    font-family: var(--font_family);
+    font-family: var(--font_family_2);
     color: var(--color_000);
     font-weight: 500;
-    font-size: 17px;
+    font-size: 16px;
     width: 240px;
 }
