@@ -17,14 +17,14 @@
     text-align: var(--center);
 }
 
-p {
+.main_block .block .block_inner p {
     font-family: var(--font_family);
     color: var(--color_fff);
     font-weight: 600;
     font-size: 25px;
 }
 
-Button {
+.main_block .block .block_inner Button {
     font-family: var(--font_family);
     text-transform: var(--inherit);
     color: var(--color_000);
