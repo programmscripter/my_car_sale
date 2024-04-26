@@ -2,13 +2,10 @@
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
-    z-index: 1000;
-    height: var(--auto);
 }
 
 .main_block .block .block_inner {
     height: var(--auto);
-    max-width: 300px;
     overflow: var(--hidden);
     text-align: var(--center);
 }
