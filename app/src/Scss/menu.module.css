@@ -4,21 +4,21 @@
     column-gap: 10px;
 }
 
-.menu_btn {
+.menu .menu_btn {
     font-family: var(--font_family) !important;
     text-transform: var(--inherit) !important;
     color: var(--color_000) !important;
     font-size: 30px;
 }
 
-.bell_btn {
+.menu .bell_btn {
     font-family: var(--font_family) !important;
     text-transform: var(--inherit) !important;
     color: var(--color_000) !important;
     font-size: 23px; 
 }
 
-.user_btn {
+.menu .user_btn {
     font-family: var(--font_family) !important;
     text-transform: var(--inherit) !important;
     color: var(--color_000) !important;
