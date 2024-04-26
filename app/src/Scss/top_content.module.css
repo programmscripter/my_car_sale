@@ -4,11 +4,11 @@
     align-items: var(--center);
     position: var(--relative);
     z-index: 1000;
+    height: var(--auto);
 }
 
 .main_block .block {
-    position: var(--absolute);
-    top: 150px;
+    position: var(--relative);
 }
 
 .main_block .block .block_inner {
