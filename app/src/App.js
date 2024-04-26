@@ -15,6 +15,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/profile page' element={<Profile_page />} />
           <Route path='/register page' element={<Register_page />} />
+          <Route path='/brand/:id' element={} />
         </Routes>
         <Footer />
       </Router>
