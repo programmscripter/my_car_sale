@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../Scss/profile_page.module.css';
+import classes from '../../Css/profile_page.module.css';
 import Profile_content from '../../Components/Profile_content/Profile_content';
 
 const Profile_page = () => {
