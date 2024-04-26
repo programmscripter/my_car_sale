@@ -1,3 +1,7 @@
+.main_block {
+    padding: 60px 0;
+}
+
 .main_block .main_block_inner {
     max-width: 1260px;
     margin: var(--margin_0_auto);
@@ -12,5 +16,7 @@
 
 .main_block .main_block_inner .grid .grid_inner {
     display: var(--grid);
-    grid-template-columns: var(--auto );
+    grid-template-columns: var(--auto) var(--auto) var(--auto) var(--auto);
+    column-gap: 15px;
+    row-gap: 17px;
 }
