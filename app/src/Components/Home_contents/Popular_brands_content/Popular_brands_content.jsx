@@ -22,6 +22,7 @@ const Popular_brands_content = () => {
                     />
                   )
                 })}
+                
               </div>
             </div>
         </div>
