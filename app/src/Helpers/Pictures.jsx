@@ -20,12 +20,13 @@ import Volkswagen_img from '../Images/Brands_img/Volkswagen_img.png';
 import Hyundai_img from '../Images/Brands_img/Hyundai_img.png';
 
 
+export default 
 
-export const headerPicturesFile = {
+const headerPicturesFile = {
     Logo
 }
 
-export const popularBrandsPicturesFile = {
+const popularBrandsPicturesFile = {
     Audi_img,
     Mercedes_Benz_img,
     BMW_img,
@@ -38,3 +39,5 @@ export const popularBrandsPicturesFile = {
     Volkswagen_img,
     Hyundai_img
 }
+
+export default popularBrandsPicturesFile
