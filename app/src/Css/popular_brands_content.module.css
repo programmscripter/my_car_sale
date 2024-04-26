@@ -39,7 +39,7 @@
     padding-top: 12px;
 }
 
-a {
+.main_block .main_block_inner .grid .grid_inner a {
     text-decoration: var(--none);
 }
 
