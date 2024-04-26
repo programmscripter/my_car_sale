@@ -7,4 +7,5 @@ a .block {
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
+    text-align: var(--center);
 }
