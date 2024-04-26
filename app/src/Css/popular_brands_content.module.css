@@ -1,7 +1,9 @@
 .main_block {
     position: var(--relative);
-    top: 40px;
     padding: 20px 15px;
+    height: 400px;
+    top: 30px;
+    background: var(--bg_fff);
 }
 
 .main_block .main_block_inner {
