@@ -9,6 +9,7 @@ a .block {
     grid-template-columns: var(--auto);
     text-align: var(--center);
     border-radius: 5px;
+    height: 140px;
 }
 
 a .block .img_block img {
