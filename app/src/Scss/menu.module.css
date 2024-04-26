@@ -75,7 +75,6 @@
 .menu .hover_box .hover_box_inner .block {
     display: var(--grid);
     grid-template-columns: var(--auto);
-    padding-bottom: 60px;
     row-gap: 8px;
 }
 
