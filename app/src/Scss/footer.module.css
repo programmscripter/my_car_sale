@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 370px;
+    height: 420px;
     display: var(--flex);
     justify-content: var(--start);
     align-items: var(--center);
@@ -18,6 +18,8 @@
     align-items: var(--start);
     grid-template-columns: var(--auto) var(--auto) var(--auto) var(--auto) var(--auto);
     column-gap: 80px;
+    position: var(--relative);
+    top: -30px;
 }
 
 .main_block .main_block_inner .block {
