@@ -67,7 +67,7 @@
     grid-template-columns: var(--auto) var(--auto) var(--auto);
     justify-content: var(--center);
     padding-top: 10px;
-    /* column-gap: 180px; */
+    column-gap: 180px;
     overflow-y: var(--auto);
     overflow-x: var(--hidden);
 }
@@ -75,6 +75,7 @@
 .menu .hover_box .hover_box_inner .block {
     display: var(--grid);
     grid-template-columns: var(--auto);
+    padding-bottom: 60px;
     row-gap: 8px;
 }
 
