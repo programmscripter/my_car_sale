@@ -11,6 +11,8 @@
     position: var(--absolute);
     top: var(--auto);
     bottom: var(--auto);
-    left: ;
+    left: var(--auto);
+    right: var(--auto);
     margin-top: -320px;
+    margin-left: 300px;
 }
