@@ -12,8 +12,8 @@ import { ReactComponent as Linkedin_icon } from './footer_svg/linkedin_icon.svg'
 import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
 import { ReactComponent as BMW_icon } from './brands_svg/bmw_icon.svg';
 import { ReactComponent as Mercedes_Benz_icon } from './brands_svg/mercedes_benz_icon.svg';
-import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
-import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
+import { ReactComponent as Volvo_icon } from './brands_svg/volvo_icon.svg';
+import { ReactComponent as Ford_icon } from './brands_svg/ford_icon.svg';
 import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
 import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
 import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
