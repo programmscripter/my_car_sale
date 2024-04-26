@@ -14,7 +14,7 @@
     overflow: var(--hidden);
 }
 
-.main_block .main_block_inner .grid p {
+.main_block .main_block_inner .grid .title {
     font-family: var(--font_family);
     color: var(--color_000);
     font-weight: 600;
