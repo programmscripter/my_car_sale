@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../../Scss/popular_brands_content.module.scss';
+import classes from '../../../Scss/popular_brands_content.module.css';
 
 const Popular_brands_content = () => {
   return (
