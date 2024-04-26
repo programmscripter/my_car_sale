@@ -22,7 +22,11 @@ const Popular_brands_content = () => {
                     />
                   )
                 })}
-                
+                <div className={classes.more_block}>
+                  <div className={classes.more_block_img}>
+                    
+                  </div>
+                </div>
               </div>
             </div>
         </div>
