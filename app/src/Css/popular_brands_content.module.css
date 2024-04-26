@@ -59,16 +59,17 @@
     box-shadow: 0 0 8px var(--color_000);
 }
 
-.main_block .main_block_inner .grid .grid_inner  a .more_block:hover > .txt_block p {
+.main_block .main_block_inner .grid .grid_inner  a .more_block:hover > .more_block_txt p {
     text-decoration: var(--underline);
 }
 
-.main_block .main_block_inner .grid .grid_inner  a .more_block .more_block_img img {
-    width: 45px;
-    height: 45px;
+.main_block .main_block_inner .grid .grid_inner  a .more_block .more_block_img .img {
+    width: 40px;
+    height: 40px;
+    color: var(--color_000);
 }
 
-.main_block .main_block_inner .grid .grid_inner  a .more_block .txt_block p {
+.main_block .main_block_inner .grid .grid_inner  a .more_block .more_block_txt p {
     font-family: var(--font_family);
     color: var(--color_000);
     font-size: 15px;
