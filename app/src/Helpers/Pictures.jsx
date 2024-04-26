@@ -25,7 +25,7 @@ export const headerPicturesFile = {
     Logo
 }
 
-export default popularBrandsPicturesFile = {
+export const popularBrandsPicturesFile = {
     Audi_img,
     Mercedes_Benz_img,
     BMW_img,
