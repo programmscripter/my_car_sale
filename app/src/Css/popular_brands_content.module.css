@@ -43,7 +43,7 @@
     text-decoration: var(--none);
 }
 
-.main_block .main_block_inner .grid .grid_inner  a .block {
+.main_block .main_block_inner .grid .grid_inner  a .more_block {
     padding-top: 15px;
     display: var(--grid);
     grid-template-columns: var(--auto);
@@ -54,21 +54,21 @@
     border-radius: 5px;
 }
 
-.main_block .main_block_inner .grid .grid_inner  a .block:hover {
+.main_block .main_block_inner .grid .grid_inner  a .more_block:hover {
     transition: 0.25s var(--ease_in_out);
     box-shadow: 0 0 8px var(--color_000);
 }
 
-.main_block .main_block_inner .grid .grid_inner  a .block:hover > .txt_block p {
+.main_block .main_block_inner .grid .grid_inner  a .more_block:hover > .txt_block p {
     text-decoration: var(--underline);
 }
 
-.main_block .main_block_inner .grid .grid_inner  a .block .img_block img {
+.main_block .main_block_inner .grid .grid_inner  a .more_block .more_block_img img {
     width: 45px;
     height: 45px;
 }
 
-.main_block .main_block_inner .grid .grid_inner  a .block .txt_block p {
+.main_block .main_block_inner .grid .grid_inner  a .more_block .txt_block p {
     font-family: var(--font_family);
     color: var(--color_000);
     font-size: 15px;
