@@ -9,18 +9,18 @@
     padding: 10px 25px;
 }
 
-.top_block {
+.block_inner .top_block {
     border-bottom: 1px main.$solid main.$color_000;
 }
 
-.title {
+.block_inner .top_block .title {
     font-family: main.$font_family;
     color: main.$color_000;
     font-weight: 600;
     font-size: 22px;
 }
 
-.center_block {
+.block_inner .center_block {
     padding-top: 25px;
     display: main.$grid;
     grid-template-columns: main.$auto main.$auto;
@@ -28,7 +28,7 @@
     column-gap: 10px;
 }
 
-.choose_block {
+.block_inner .choose_block {
     padding-top: 15px;
     display: main.$flex;
     justify-content: main.$center;
@@ -36,13 +36,13 @@
     column-gap: 20px;
 }
 
-p {
+.block_inner .choose_block p {
     font-family: main.$font_family;
     color: main.$color_000;
     font-weight: 600;
 }
 
-.bottom_block {
+.block_inner .bottom_block {
     padding-top: 15px;
     padding-bottom: 5px;
 }
