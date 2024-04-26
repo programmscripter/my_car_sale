@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import classes from '../../../../Css'
+import classes from '../../../../Css/brands_blocks.module.css';
 
 const Brands_blocks = ({ index, img, title }) => {
     return (
