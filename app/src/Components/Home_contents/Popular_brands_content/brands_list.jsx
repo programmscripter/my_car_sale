@@ -1,43 +1,43 @@
-import Audi_img from '../../../Images/Brands_img/Audi_img.png';
-import Mercedes_Benz_img from '../../../Images/Brands_img/Mercedes_Benz_img.png';
-import BMW_img from '../../../Images/Brands_img/BMW_img.png';
-import Renault_img from '../../../Images/Brands_img/Renault_img.png';
-import Skoda_img from '../../../Images/Brands_img/Skoda_img.png';
-import Toyota_img from '../../../Images/Brands_img/Toyota_img.png';
-import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
-import Volvo_img from '../../../Images/Brands_img/Volvo_img.png';
-import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
-import Volkswagen_img from '../../../Images/Brands_img/Volkswagen_img.png';
-import Ford_img from '../../../Images/Brands_img/Ford_img.png';
-import Opel_img from '../../../Images/Brands_img/Opel_img.png';
+import Audi from '../../../Images/Brands_img/Audi_img.png';
+import Mercedes_Benz from '../../../Images/Brands_img/Mercedes_Benz_img.png';
+import BMW from '../../../Images/Brands_img/BMW_img.png';
+import Renault from '../../../Images/Brands_img/Renault_img.png';
+import Skoda from '../../../Images/Brands_img/Skoda_img.png';
+import Toyota from '../../../Images/Brands_img/Toyota_img.png';
+import Tesla from '../../../Images/Brands_img/Tesla_img.png';
+import Volvo from '../../../Images/Brands_img/Volvo_img.png';
+import Tesla from '../../../Images/Brands_img/Tesla_img.png';
+import Volkswagen from '../../../Images/Brands_img/Volkswagen_img.png';
+import Ford from '../../../Images/Brands_img/Ford_img.png';
+import Opel from '../../../Images/Brands_img/Opel_img.png';
 
 export default brands = [
     {
-        img: Audi_img,
+        img: Audi,
         title: 'Audi'
     },
     {
-        img: Mercedes_Benz_img,
+        img: Mercedes_Benz,
         title: 'Mercedes-Benz'
     },
     {
-        img: BMW_img,
+        img: BMW,
         title: 'BMW'
     },
     {
-        img: Renault_img,
+        img: Renault,
         title: 'Renault'
     },
     {
-        img: Skoda_img,
+        img: Skoda,
         title: 'Skoda'
     },
     {
-        img: Toyota_img,
+        img: Toyota,
         title: 'Toyota'
     },
     {
-        img: Tesla_img,
+        img: Tesla,
         title: 'Tesla'
     },
     {
