@@ -18,14 +18,14 @@
     font-size: 23px; 
 }
 
-.menu .user_btn {
+.menu a .user_btn {
     font-family: var(--font_family) !important;
     text-transform: var(--inherit) !important;
     color: var(--color_000) !important;
     font-size: 23px;
 }
 
-.reg_btn {
+.menu a .reg_btn {
     background: var(--bg_000);
     color: var(--color_fff);
     text-transform: var(--inherit);
@@ -37,11 +37,11 @@
     height: 44px;
 }
 
-.reg_btn:hover {
+.menu a .reg_btn:hover {
     background: var(--bg_4a4a4a);
 }
 
-.hover_box {
+.menu .hover_box {
     position: var(--fixed);
     height: 400px;
     width: 1210px;
@@ -57,7 +57,7 @@
     border: 1px var(--solid) var(--color_000);
 }
 
-.hover_box_inner {
+.menu .hover_box .hover_box_inner {
     height: 390px;
     display: var(--grid);
     grid-template-columns: var(--auto) var(--auto) var(--auto);
