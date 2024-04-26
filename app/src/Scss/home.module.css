@@ -9,5 +9,8 @@
     justify-content: var(--center);
     align-items: var(--center);
     position: var(--absolute);
-    top: ;
+    top: var(--auto);
+    bottom: var(--auto);
+    left: ;
+    margin-top: -320px;
 }
