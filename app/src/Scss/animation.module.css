@@ -1,12 +1,8 @@
-@use './main.scss';
+.video_block {
+    position: var(--relative);
+    top: 70px;
+}
 
-.main_block {
-    .video_block {
-        position: main.$relative;
-        top: 70px;
-
-        .video {
-            position: main.$absolute;
-        }
-    }
+.video_block .video {
+    position: var(--absolute);
 }
