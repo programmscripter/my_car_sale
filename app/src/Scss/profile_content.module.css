@@ -62,10 +62,10 @@ Button {
     text-transform: main.$inherit;
     border-radius: 30px;
     padding: 8px 25px;
+}
 
-    &:hover {
-        background: main.$bg_4a4a4a;
-    }
+Button:hover {
+    background: main.$bg_4a4a4a;
 }
 
 .center_block {
@@ -73,12 +73,12 @@ Button {
     justify-content: main.$center;
     align-items: main.$center;
     padding-top: 15px;
+}
 
-    p {
-        font-family: main.$font_family;
-        color: main.$color_000;
-        font-size: 23px;
-        width: 250px;
-        text-align: main.$center;
-    }
+p {
+    font-family: main.$font_family;
+    color: main.$color_000;
+    font-size: 23px;
+    width: 250px;
+    text-align: main.$center;
 }
