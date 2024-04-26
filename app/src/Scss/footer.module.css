@@ -8,6 +8,7 @@
     display: var(--flex);
     justify-content: var(--start);
     align-items: var(--center);
+    border: 1px var(--solid) var(--color_000);
 }
 
 .main_block .main_block_inner {
