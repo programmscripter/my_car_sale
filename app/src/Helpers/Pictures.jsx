@@ -20,8 +20,6 @@ import Volkswagen_img from '../Images/Brands_img/Volkswagen_img.png';
 import Hyundai_img from '../Images/Brands_img/Hyundai_img.png';
 
 
-export default headerPicturesFile;
-
 const headerPicturesFile = {
     Logo
 }
