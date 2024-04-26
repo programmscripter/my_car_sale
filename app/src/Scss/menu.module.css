@@ -47,7 +47,7 @@
 
 .menu .hover_box {
     position: var(--fixed);
-    height: 400px;
+    height: 380px;
     width: 1210px;
     top: 75px;
     background: var(--bg_fff);
@@ -62,7 +62,7 @@
 }
 
 .menu .hover_box .hover_box_inner {
-    height: 390px;
+    height: 370px;
     display: var(--grid);
     grid-template-columns: var(--auto) var(--auto) var(--auto);
     justify-content: var(--center);
