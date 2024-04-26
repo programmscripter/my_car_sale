@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../Scss/profile_content.module.css';
+import classes from '../../Css/profile_content.module.css';
 import { User_icon } from '../../Svg/svg';
 import { profile_list } from './profile_list';
 import Button from '@mui/material/Button';

@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../../../Scss/search.module.css';
+import classes from '../../../../Css/search.module.css';
 import { Search_icon } from '../../../../Svg/svg';
 import Button from '@mui/material/Button';
 

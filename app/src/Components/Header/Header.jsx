@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../Scss/header.module.css';
+import classes from '../../Css/header.module.css';
 import Logotype from './Logotype/Logotype';
 import Menu from './Menu/Menu';
 
