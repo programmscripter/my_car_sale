@@ -15,7 +15,8 @@ const Popular_brands_content = () => {
                   return (
                     <Brands_blocks 
                       key={index}
-                      img={}
+                      img={brand.img}
+                      title={brand.title}
                     />
                   )
                 })}
