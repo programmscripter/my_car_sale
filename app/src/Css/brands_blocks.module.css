@@ -18,4 +18,6 @@ a .block .img_block img {
 
 a .block .txt_block p {
     font-family: var(--font_family);
+    color: var(--color_fff);
+    font-size: 15px;
 }
