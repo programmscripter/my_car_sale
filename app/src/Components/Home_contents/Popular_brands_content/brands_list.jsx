@@ -1,5 +1,5 @@
 import Audi_img from '../../../Images/Brands_img/Audi_img.png';
-import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import BMW_img from '../../../Images/Brands_img/BMW_img.png';
 import Audi_img from '../../../Images/Brands_img/Audi_img.png';
 import Audi_img from '../../../Images/Brands_img/Audi_img.png';
 import Audi_img from '../../../Images/Brands_img/Audi_img.png';
