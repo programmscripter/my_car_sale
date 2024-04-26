@@ -11,7 +11,7 @@
     max-width: 300px;
     overflow: var(--hidden);
     text-align: var(--center);
-    bottom: 300px;
+    bottom: 500px;
 }
 
 .main_block .block .block_inner p {
