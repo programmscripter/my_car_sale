@@ -5,12 +5,12 @@
     position: var(--relative);
 }
 
-.block {
+.main_block .block {
     position: var(--absolute);
     top: 150px;
 }
 
-.block_inner {
+.main_block .block .block_inner {
     height: var(--auto);
     max-width: 300px;
     overflow: var(--hidden);
