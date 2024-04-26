@@ -16,6 +16,10 @@ a .block .img_block img {
     height: 45px;
 }
 
+a .block .txt_block {
+    dis
+}
+
 a .block .txt_block p {
     font-family: var(--font_family);
     color: var(--color_fff);
