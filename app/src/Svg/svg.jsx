@@ -21,5 +21,5 @@ export {
     Twitter_icon,
     Youtube_icon,
     Instagram_icon,
-    Linkedin_icon,
+    Linkedin_icon
 }

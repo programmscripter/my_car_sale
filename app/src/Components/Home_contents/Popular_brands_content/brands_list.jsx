@@ -1,16 +1,30 @@
-import { Audi_icon, BMW_icon, Mercedes_Benz_icon } from "../../../Svg/svg";
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+
+
+
+
+
 
 export const brands_list = [
     {
-        img: <Audi_icon />,
+        img: Audi_img,
         title: 'Audi'
     },
     {
-        img: <Mercedes_Benz_icon />,
+        img: Mercedes_Benz_img,
         title: 'Mercedes-Benz'
     },
     {
-        img: <BMW_icon/>,
+        img: BMW_img,
         title: 'BMW'
     },
     {
