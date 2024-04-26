@@ -8,8 +8,6 @@
     height: var(--auto);
     overflow: var(--hidden);
     text-align: var(--center);
-    position: var(--absolute);
-    top: -30px;
 }
 
 .main_block .block .block_inner p {

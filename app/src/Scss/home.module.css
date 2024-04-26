@@ -8,5 +8,6 @@
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
-    position: var(--relative);
+    position: var(--absolute);
+    bottom: 200px;
 }
