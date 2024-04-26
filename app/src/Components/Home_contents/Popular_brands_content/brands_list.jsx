@@ -11,52 +11,54 @@
 // import Hyundai_img from '../../../Images/Brands_img/Hyundai_img.png';
 
 
-import { Audi_img, Mercedes_Benz_img, BMW_img, Toyota_img, Renault_img, Ford_img, Volvo_img, Tesla_img, Skoda_img, Volkswagen_img, Hyundai_img } from '../../../Helpers/Pictures';
+import Audi_img from '../../../Helpers/Pictures';
 
+
+// Mercedes_Benz_img, BMW_img, Toyota_img, Renault_img, Ford_img, Volvo_img, Tesla_img, Skoda_img, Volkswagen_img, Hyundai_img
 
 export const brands_list = [
     {
         img: Audi_img,
         title: 'Audi'
     },
-    {
-        img: Mercedes_Benz_img,
-        title: 'Mercedes-Benz'
-    },
-    {
-        img: BMW_img,
-        title: 'BMW'
-    },
-    {
-        img: Toyota_img,
-        title: 'Toyota'
-    },
-    {
-        img: Renault_img,
-        title: 'Renault'
-    },
-    {
-        img: Ford_img,
-        title: 'Ford'
-    },
-    {
-        img: Volvo_img,
-        title: 'Volvo'
-    },
-    {
-        img: Tesla_img,
-        title: 'Tesla'
-    },
-    {
-        img: Skoda_img,
-        title: 'Skoda'
-    },
-    {
-        img: Volkswagen_img,
-        title: 'Volkswagen'
-    },
-    {
-        img: Hyundai_img,
-        title: 'Hyundai'
-    }
+    // {
+    //     img: Mercedes_Benz_img,
+    //     title: 'Mercedes-Benz'
+    // },
+    // {
+    //     img: BMW_img,
+    //     title: 'BMW'
+    // },
+    // {
+    //     img: Toyota_img,
+    //     title: 'Toyota'
+    // },
+    // {
+    //     img: Renault_img,
+    //     title: 'Renault'
+    // },
+    // {
+    //     img: Ford_img,
+    //     title: 'Ford'
+    // },
+    // {
+    //     img: Volvo_img,
+    //     title: 'Volvo'
+    // },
+    // {
+    //     img: Tesla_img,
+    //     title: 'Tesla'
+    // },
+    // {
+    //     img: Skoda_img,
+    //     title: 'Skoda'
+    // },
+    // {
+    //     img: Volkswagen_img,
+    //     title: 'Volkswagen'
+    // },
+    // {
+    //     img: Hyundai_img,
+    //     title: 'Hyundai'
+    // }
 ]
