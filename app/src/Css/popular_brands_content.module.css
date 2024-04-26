@@ -12,6 +12,10 @@
     max-width: 1260px;
     margin: var(--margin_0_auto);
     overflow: var(--hidden);
+    background: var(--bg_4a4a4a);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
 }
 
 .main_block .main_block_inner .grid .title {
@@ -26,5 +30,4 @@
     grid-template-columns: var(--auto) var(--auto) var(--auto) var(--auto) var(--auto) var(--auto);
     column-gap: 15px;
     row-gap: 17px;
-    background: var(--bg);
 }
