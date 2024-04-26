@@ -1,6 +1,6 @@
-import Audi_img from '../../../Images/Audi_img.png';
-import Mercedes_Benz_img from '../../../Images/Mercedes_Benz_img.png';
-import BMW_img from '../../../Images/BMW_img.png';
+import Audi_img from '../../../Images/Brands_img/Audi_img.png';
+import Mercedes_Benz_img from '../../../Images/Brands_img/Mercedes_Benz_img.png';
+import BMW_img from '../../../Images/Brands_img/BMW_img.png';
 
 export const brands = [
     {
@@ -9,11 +9,11 @@ export const brands = [
     },
     {
         img: Mercedes_Benz_img,
-        title: ''
+        title: 'Mercedes-Benz'
     },
     {
-        img: ,
-        title: ''
+        img: BMW_img,
+        title: 'BMW'
     },
     {
         img: ,
