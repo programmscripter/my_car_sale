@@ -36,7 +36,7 @@
     font-size: 14.6px;
 }
 
-Button {
+.search .search_inner Button {
     font-family: main.$font_family;
     font-size: 20px;
     color: main.$color_000;
