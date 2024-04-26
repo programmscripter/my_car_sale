@@ -8,4 +8,5 @@ a .block {
     justify-content: var(--center);
     align-items: var(--center);
     text-align: var(--center);
+    border-radius: 5px;
 }
