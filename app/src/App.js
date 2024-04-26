@@ -4,7 +4,7 @@ import Header from './Components/Header/Header';
 import Profile_page from './Pages/Profile_page/Profile_page';
 import Register_page from './Pages/Register_page/Register_page';
 import Footer from './Components/Footer/Footer';
-import './Scss/main.css';
+import './Css/main.css';
 import Brand_page from './Pages/Brand_page/Brand_page';
 
 function App() {
