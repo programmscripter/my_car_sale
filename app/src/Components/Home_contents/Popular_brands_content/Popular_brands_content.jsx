@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../../Scss/popular_brands_content.module.css';
+import classes from '../../../Css/popular_brands_content.module.css';
 import { brands_list } from './brands_list';
 import Brands_blocks from './Brands_blocks/Brands_blocks';
 
