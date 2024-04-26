@@ -21,14 +21,11 @@ import Hyundai_img from '../Images/Brands_img/Hyundai_img.png';
 
 
 
-const headerPicturesFile = {
+export const headerPicturesFile = {
     Logo
 }
 
-export default headerPicturesFile
-
-
-export const popularBrandsPicturesFile = {
+export default popularBrandsPicturesFile = {
     Audi_img,
     Mercedes_Benz_img,
     BMW_img,

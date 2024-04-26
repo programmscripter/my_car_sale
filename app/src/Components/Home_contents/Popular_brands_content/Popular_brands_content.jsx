@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../../Css/Home_page_content_css/po';
+import classes from '../../../Css/Home_page_content_css/popular_brands_content.module.css';
 import { brands_list } from './brands_list';
 import Brands_blocks from './Brands_blocks/Brands_blocks';
 import { Plus_icon } from '../../../Svg/svg';
