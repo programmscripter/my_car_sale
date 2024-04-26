@@ -42,7 +42,7 @@
 }
 
 .block .block_inner .img_block .title {
-    font-family: var(--font_family_2);
+    font-family: var(--font_family);
     color: var(--color_000);
     font-size: 18px;
     width: 200px;
