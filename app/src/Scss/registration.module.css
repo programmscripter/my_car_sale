@@ -11,13 +11,13 @@
 
 .top_block {
     border-bottom: 1px main.$solid main.$color_000;
+}
 
-    .title {
-        font-family: main.$font_family;
-        color: main.$color_000;
-        font-weight: 600;
-        font-size: 22px;
-    }
+.title {
+    font-family: main.$font_family;
+    color: main.$color_000;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 .center_block {
@@ -34,47 +34,47 @@
     justify-content: main.$center;
     align-items: main.$center;
     column-gap: 20px;
+}
 
-    p {
-        font-family: main.$font_family;
-        color: main.$color_000;
-        font-weight: 600;
-    }
+p {
+    font-family: main.$font_family;
+    color: main.$color_000;
+    font-weight: 600;
 }
 
 .bottom_block {
     padding-top: 15px;
     padding-bottom: 5px;
+}
 
-    p {
-        font-family: main.$font_family;
-        font-size: 15px;
-        color: main.$color_000;
+p {
+    font-family: main.$font_family;
+    font-size: 15px;
+    color: main.$color_000;
+}
 
-        .log_in_btn {
-            font-family: main.$font_family;
-            color: main.$color_5d08dc;
-            font-size: 14px;
-            text-transform: main.$inherit;
-            background: main.$none;
-            width: 50px;
-            border: main.$none;
-            cursor: main.$pointer;
+.log_in_btn {
+    font-family: main.$font_family;
+    color: main.$color_5d08dc;
+    font-size: 14px;
+    text-transform: main.$inherit;
+    background: main.$none;
+    width: 50px;
+    border: main.$none;
+    cursor: main.$pointer;
+}
 
-            &:hover {
-                background: main.$none;
-                text-decoration: main.$underline;
-            }
-        }
-    }
+.log_in_btn:hover {
+    background: main.$none;
+    text-decoration: main.$underline;
+}
 
-    .reg_btn {
-        font-family: main.$font_family;
-        color: main.$color_fff;
-        background: main.$bg_000;
-        border-radius: 30px;
-        padding: 10px 30px;
-        width: 200px;
-        font-weight: 600;
-    }
+.reg_btn {
+    font-family: main.$font_family;
+    color: main.$color_fff;
+    background: main.$bg_000;
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 200px;
+    font-weight: 600;
 }
