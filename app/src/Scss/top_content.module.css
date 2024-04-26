@@ -5,10 +5,7 @@
     position: var(--relative);
     z-index: 1000;
     height: var(--auto);
-}
-
-.main_block .block {
-    position: var(--relative);
+    top: -120px;
 }
 
 .main_block .block .block_inner {
