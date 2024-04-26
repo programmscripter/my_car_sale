@@ -3,10 +3,10 @@ a {
 }
 
 a .block {
+    padding-top: 15px;
     background: var(--bg_4a4a4a);
-    display: var(--flex);
-    justify-content: var(--center);
-    align-items: var(--center);
+    display: var(--grid);
+    grid-template-columns: var(--auto);
     text-align: var(--center);
     border-radius: 5px;
 }
@@ -14,10 +14,6 @@ a .block {
 a .block .img_block img {
     width: 45px;
     height: 45px;
-}
-
-a .block .txt_block {
-    dis
 }
 
 a .block .txt_block p {
