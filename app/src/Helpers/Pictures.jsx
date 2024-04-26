@@ -1,6 +1,9 @@
 import Logo from '../Images/Logo.jpg';
 
 
+/*
+
+
 const headerPicturesFile = {
     Logo
 }
@@ -8,4 +11,9 @@ const headerPicturesFile = {
 export default headerPicturesFile
 
 
-const popular_brands_
+export const popularBrandsPicturesFile = {
+    Audi_img,
+    Mercedes_Benz_img,
+    BMW_img,
+
+}
