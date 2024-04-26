@@ -11,7 +11,7 @@
 // import Hyundai_img from '../../../Images/Brands_img/Hyundai_img.png';
 
 
-import { Audi_img, Mercedes_Benz_img, BMW_img, Toyota_img, Renault_img, Ford_img, Volvo_img } from '../../../Helpers/Pictures';
+import { Audi_img, Mercedes_Benz_img, BMW_img, Toyota_img, Renault_img, Ford_img, Volvo_img, Tesla_img, Skoda_img, Volkswagen_img, Hyundai_img } from '../../../Helpers/Pictures';
 
 
 export const brands_list = [
