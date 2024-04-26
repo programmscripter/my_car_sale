@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 400px;
+    height: 370px;
     display: var(--flex);
     justify-content: var(--start);
     align-items: var(--center);
@@ -24,8 +24,6 @@
     display: var(--grid);
     grid-template-columns: var(--auto);
     row-gap: 12px;
-    position: var(--relative)
-    ;
 }
 
 .main_block .main_block_inner .block .title {
