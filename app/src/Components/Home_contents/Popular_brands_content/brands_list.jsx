@@ -5,6 +5,8 @@ import Renault_img from '../../../Images/Brands_img/Renault_img.png';
 import Skoda_img from '../../../Images/Brands_img/Skoda_img.png';
 import Toyota_img from '../../../Images/Brands_img/Toyota_img.png';
 import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
+import Volvo_img from '../../../Images/Brands_img/Volvo_img.png';
+import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
 
 export const brands = [
     {
@@ -36,8 +38,8 @@ export const brands = [
         title: 'Tesla'
     },
     {
-        img: Tesla_img,
-        title: 'Tesla'
+        img: Volvo_img,
+        title: 'Volvo'
     },
     {
         img: Tesla_img,
