@@ -9,7 +9,9 @@ const Brands_blocks = ({ index, img, title }) => {
                 <div className={classes.img_block}>
                     <img src={img} alt="" />
                 </div>
-                <p>{title}</p>
+                <div className={classes.txt_block}>
+                    <p>{title}</p>
+                </div>
             </div>
         </Link>
     )
