@@ -35,7 +35,7 @@ const Logination = () => {
   };
   return (
     <>
-      <div style={{ display: isButtonClick ? 'none' : 'block', paddingTop: '220px' }}>
+      <div style={{ display: isButtonClick ? 'none' : 'block', paddingTop: '175px' }}>
         <div className={classes.block_inner}>
           <div className={classes.top_block}>
             <p className={classes.title}>{title}</p>
