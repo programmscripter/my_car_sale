@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import classes from '../../Css/more_brands_page.module.css';
 
 const More_brands_page = () => {
   return (

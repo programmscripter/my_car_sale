@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../Scss/register_page.module.css';
+import classes from '../../Css/register_page.module.css';
 import Register_content from '../../Components/Register_content/Register_content';
 
 const Register_page = () => {
