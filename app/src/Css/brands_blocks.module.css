@@ -7,8 +7,8 @@ a .block {
     display: var(--grid);
     grid-template-columns: var(--auto);
     text-align: var(--center);
-    border-radius: 5px;
     height: 140px;
+    border: 1px var(--solid) var(--color_fff);
 }
 
 a .block .img_block img {
