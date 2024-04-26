@@ -1,5 +1,7 @@
 .main_block {
-    padding: 80px 0;
+    position: var(--relative);
+    top: 40px;
+    padding: 20px 15px;
 }
 
 .main_block .main_block_inner {
