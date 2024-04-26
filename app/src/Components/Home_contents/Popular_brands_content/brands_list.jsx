@@ -11,6 +11,8 @@
 // import Hyundai_img from '../../../Images/Brands_img/Hyundai_img.png';
 
 
+import Audi_img from '../../'
+
 
 export const brands_list = [
     {

@@ -1,3 +1,4 @@
+/* Header Pictures File */
 
 
 import Logo from '../Images/Logo.jpg';
@@ -17,6 +18,7 @@ import Tesla_img from '../Images/Brands_img/Tesla_img.png';
 import Skoda_img from '../Images/Brands_img/Skoda_img.png';
 import Volkswagen_img from '../Images/Brands_img/Volkswagen_img.png';
 import Hyundai_img from '../Images/Brands_img/Hyundai_img.png';
+
 
 
 const headerPicturesFile = {
