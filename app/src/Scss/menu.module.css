@@ -17,7 +17,7 @@
     text-transform: var(--inherit) !important;
     color: var(--color_000) !important;
     font-size: 23px;
-    max-width: 200px;
+    max-width: 70px;
 }
 
 .menu a .user_btn {
@@ -25,7 +25,7 @@
     text-transform: var(--inherit) !important;
     color: var(--color_000) !important;
     font-size: 23px;
-    max-width: 200px;
+    max-width: 70px;
 }
 
 .menu a .reg_btn {
@@ -38,7 +38,7 @@
     border-radius: 26px;
     width: 120px;
     height: 44px;
-    max-width: 200px;
+    max-width: 70px;
 }
 
 .menu a .reg_btn:hover {
@@ -67,7 +67,7 @@
     grid-template-columns: var(--auto) var(--auto) var(--auto);
     justify-content: var(--center);
     padding-top: 10px;
-    column-gap: 180px;
+    /* column-gap: 180px; */
     overflow-y: var(--auto);
     overflow-x: var(--hidden);
 }
