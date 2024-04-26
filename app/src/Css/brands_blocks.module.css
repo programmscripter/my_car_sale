@@ -3,5 +3,8 @@ a {
 }
 
 a .block {
-    
+    background: var(--bg_4a4a4a);
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
 }
