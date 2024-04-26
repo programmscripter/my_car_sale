@@ -53,6 +53,7 @@
     background: var(--bg_fff);
     padding: 10px 20px;
     right: var(--auto);
+    left: var(--auto);
     overflow-y: var(--hidden);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
