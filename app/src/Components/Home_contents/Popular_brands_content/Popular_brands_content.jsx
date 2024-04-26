@@ -25,7 +25,7 @@ const Popular_brands_content = () => {
                 />
               )
             })}
-            <Link to={''}>
+            <Link to={'/more brands'}>
               <div className={classes.more_block}>
                 <div className={classes.more_block_img}>
                   <Plus_icon className={classes.img} />
