@@ -6,6 +6,7 @@ import { Plus_icon } from '../../../Svg/svg';
 
 const Popular_brands_content = () => {
   const title = "Popular Car Brands";
+  const title_2 = "More Brands"
   return (
     <div className={classes.main_block}>
         <div className={classes.main_block_inner}>
@@ -26,6 +27,9 @@ const Popular_brands_content = () => {
                 <div className={classes.more_block}>
                   <div className={classes.more_block_img}>
                     <Plus_icon />
+                  </div>
+                  <div className={classes.more_block_txt}>
+                    <p>{title_2}</p>
                   </div>
                 </div>
               </div>
