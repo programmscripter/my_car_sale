@@ -3,6 +3,7 @@
     justify-content: var(--center);
     align-items: var(--center);
     position: var(--relative);
+    z-index: 1000;
 }
 
 .main_block .block {
