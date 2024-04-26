@@ -5,7 +5,7 @@ const Popular_brands_content = () => {
   return (
     <div className={classes.main_block}>
         <div className={classes.main_block_inner}>
-            
+            <div className=""></div>
         </div>
     </div>
   )
