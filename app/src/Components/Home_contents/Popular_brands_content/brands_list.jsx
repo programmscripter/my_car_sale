@@ -8,9 +8,7 @@ import Volvo_img from '../../../Images/Brands_img/Volvo_img.png';
 import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
 import Skoda_img from '../../../Images/Brands_img/Skoda_img.png';
 import Volkswagen_img from '../../../Images/Brands_img/Volkswagen_img.png';
-
-
-
+import Hyundai_img from '../../../Images/Brands_img/Hyundai_img.png';
 
 
 
@@ -56,7 +54,7 @@ export const brands_list = [
         title: 'Volkswagen'
     },
     {
-        img: Opel_img,
-        title: 'Opel'
+        img: Hyundai_img,
+        title: 'Hyundai'
     }
 ]
