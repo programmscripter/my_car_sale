@@ -47,13 +47,13 @@
     padding-bottom: 5px;
 }
 
-p {
+.block_inner .bottom_block p {
     font-family: main.$font_family;
     font-size: 15px;
     color: main.$color_000;
 }
 
-.log_in_btn {
+.block_inner .bottom_block a .log_in_btn {
     font-family: main.$font_family;
     color: main.$color_5d08dc;
     font-size: 14px;
@@ -64,12 +64,12 @@ p {
     cursor: main.$pointer;
 }
 
-.log_in_btn:hover {
+.block_inner .bottom_block a .log_in_btn:hover {
     background: main.$none;
     text-decoration: main.$underline;
 }
 
-.reg_btn {
+.block_inner .bottom_block a .reg_btn {
     font-family: main.$font_family;
     color: main.$color_fff;
     background: main.$bg_000;
