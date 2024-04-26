@@ -28,5 +28,12 @@ export const popularBrandsPicturesFile = {
     Audi_img,
     Mercedes_Benz_img,
     BMW_img,
-    Toyota_img
+    Toyota_img,
+    Renault_img,
+    Ford_img,
+    Volvo_img,
+    Tesla_img,
+    Skoda_img,
+    Volkswagen_img,
+    Hyundai_img
 }
