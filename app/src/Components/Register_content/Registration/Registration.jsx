@@ -210,9 +210,9 @@ const Registration = () => {
                     </div>
                     <div className={classes.bottom_block}>
                         <Link to={'/profile page'}>
-                            <Button onClick={handleSubmit} className={styles.reg_btn}>{btn_txt}</Button>
+                            <Button onClick={handleSubmit} className={classes.reg_btn}>{btn_txt}</Button>
                         </Link>
-                        <p>{txt} <button className={styles.log_in_btn} onClick={handleBtn_click}>{btn_txt_2}</button>!</p>
+                        <p>{txt} <button className={classes.log_in_btn} onClick={handleBtn_click}>{btn_txt_2}</button>!</p>
                     </div>
                 </div>
             </div>

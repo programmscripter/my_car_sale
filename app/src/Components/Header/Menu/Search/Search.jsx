@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from '../../../../Scss/search.module.scss';
+import classes from '../../../../Scss/search.module.css';
 import { Search_icon } from '../../../../Svg/svg';
 import Button from '@mui/material/Button';
 
 const Search = () => {
     const txt = "Search..."
     return (
-        <div className={styles.search}>
-            <div className={styles.search_inner}>
+        <div className={classes.search}>
+            <div className={classes.search_inner}>
                 <input type="text" placeholder={txt} />
                 <Button><Search_icon /></Button>
             </div>

@@ -1,5 +1,3 @@
-@use './main.scss';
-
 .search {
     background: main.$bg_fff;
     border-radius: 30px;
