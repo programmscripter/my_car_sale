@@ -26,7 +26,10 @@
 }
 
 .main_block .main_block_inner .grid .line {
-    background: ;
+    background: var(--color_4a4a4a);
+    width: 100%;
+    position: var(--absolute);
+    height: 1.4px;
 }
 
 .main_block .main_block_inner .grid .grid_inner {
