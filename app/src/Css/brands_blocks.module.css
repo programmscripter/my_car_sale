@@ -15,3 +15,7 @@ a .block .img_block img {
     width: 45px;
     height: 45px;
 }
+
+a .block .txt_block p {
+    font-family: var(--font_family);
+}
