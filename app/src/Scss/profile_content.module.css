@@ -5,7 +5,7 @@
 .block .block_inner {
     max-width: 1200px;
     height: var(--auto);
-    margin: var(--margin)-0-auto;
+    margin: var(--margin-0-auto);
     overflow: var(--hidden);
     border: 1px var(--solid) var(--color_929292);
     padding: 15px 25px;

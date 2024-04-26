@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../../../Scss/registration.module.scss';
+import classes from '../../../Scss/registration.module.css';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Radio from '@mui/material/Radio';
@@ -108,11 +108,11 @@ const Registration = () => {
     return (
         <>
             <div style={{ display: isBtn_click ? 'none' : 'block', paddingTop: '130px' }}>
-                <div className={styles.block_inner}>
-                    <div className={styles.top_block}>
-                        <p className={styles.title}>{title}</p>
+                <div className={classes.block_inner}>
+                    <div className={classes.top_block}>
+                        <p className={classes.title}>{title}</p>
                     </div>
-                    <div className={styles.center_block}>
+                    <div className={classes.center_block}>
                         <TextField
                             style={{ border: isNameEmpty ? '1px solid red' : '' }}
                             id="filled-basic"
@@ -194,7 +194,7 @@ const Registration = () => {
                             variant="filled"
                         />
                     </div>
-                    <div className={styles.choose_block}>
+                    <div className={classes.choose_block}>
                         <p>{choose_txt}</p>
                         <FormControl>
                             <RadioGroup
@@ -208,7 +208,7 @@ const Registration = () => {
                             </RadioGroup>
                         </FormControl>
                     </div>
-                    <div className={styles.bottom_block}>
+                    <div className={classes.bottom_block}>
                         <Link to={'/profile page'}>
                             <Button onClick={handleSubmit} className={styles.reg_btn}>{btn_txt}</Button>
                         </Link>
