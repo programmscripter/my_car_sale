@@ -11,7 +11,7 @@ import Volkswagen_img from '../../../Images/Brands_img/Volkswagen_img.png';
 import Ford_img from '../../../Images/Brands_img/Ford_img.png';
 import Opel_img from '../../../Images/Brands_img/Opel_img.png';
 
-export const brands = [
+export default brands = [
     {
         img: Audi_img,
         title: 'Audi'
@@ -56,4 +56,4 @@ export const brands = [
         img: Opel_img,
         title: 'Opel'
     }
-}
+]
