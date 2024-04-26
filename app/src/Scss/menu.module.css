@@ -83,6 +83,7 @@
     font-family: var(--font_family);
     color: var(--color_000);
     font-weight: 600;
+    font-size: 19px;
 }
 
 .menu .hover_box .hover_box_inner .block a Button {
@@ -94,4 +95,5 @@
     justify-content: var(--start);
     align-items: var(--center);
     width: var(--auto);
+    height: 38px;
 }
