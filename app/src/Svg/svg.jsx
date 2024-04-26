@@ -9,14 +9,6 @@ import { ReactComponent as Twitter_icon } from './footer_svg/twitter_icon.svg';
 import { ReactComponent as Youtube_icon } from './footer_svg/youtube_icon.svg';
 import { ReactComponent as Instagram_icon } from './footer_svg/instagram_icon.svg';
 import { ReactComponent as Linkedin_icon } from './footer_svg/linkedin_icon.svg';
-import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
-import { ReactComponent as BMW_icon } from './brands_svg/bmw_icon.svg';
-import { ReactComponent as Mercedes_Benz_icon } from './brands_svg/mercedes_benz_icon.svg';
-import { ReactComponent as Volvo_icon } from './brands_svg/volvo_icon.svg';
-import { ReactComponent as Ford_icon } from './brands_svg/ford_icon.svg';
-import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
-import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
-import { ReactComponent as Audi_icon } from './brands_svg/audi_icon.svg';
 
 export {
     Menu_icon,
@@ -30,7 +22,4 @@ export {
     Youtube_icon,
     Instagram_icon,
     Linkedin_icon,
-    Audi_icon,
-    BMW_icon,
-    Mercedes_Benz_icon,
 }
