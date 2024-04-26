@@ -8,8 +8,8 @@ import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
 import Volvo_img from '../../../Images/Brands_img/Volvo_img.png';
 import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
 import Volkswagen_img from '../../../Images/Brands_img/Volkswagen_img.png';
-import Ford_img from '../../../Images/Brands_img/Volkswagen_img.png';
-import Volkswagen_img from '../../../Images/Brands_img/Volkswagen_img.png';
+import Ford_img from '../../../Images/Brands_img/Ford_img.png';
+import Opel_img from '../../../Images/Brands_img/Opel_img.png';
 
 export const brands = [
     {
@@ -48,4 +48,12 @@ export const brands = [
         img: Volkswagen_img,
         title: 'Volkswage'
     },
-]
+    {
+        img: Ford_img,
+        title: 'Ford'
+    },
+    {
+        img: Opel_img,
+        title: 'Opel'
+    }
+}
