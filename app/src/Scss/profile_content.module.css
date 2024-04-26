@@ -43,19 +43,19 @@
     align-items: main.$center;
 }
 
-.menu_block {
+.block .block_inner .top_block .menu_block {
     display: main.$flex;
     align-items: main.$center;
     column-gap: 15px;
 }
 
-p {
+.block .block_inner .top_block .menu_block p {
     font-family: main.$font_family;
     color: main.$color_000;
     font-weight: 600;
 }
 
-Button {
+.block .block_inner .top_block .menu_block a Button {
     font-family: main.$font_family;
     color: main.$color_fff;
     background: main.$bg_000;
@@ -64,7 +64,7 @@ Button {
     padding: 8px 25px;
 }
 
-Button:hover {
+.block .block_inner .top_block .menu_block a Button:hover {
     background: main.$bg_4a4a4a;
 }
 
