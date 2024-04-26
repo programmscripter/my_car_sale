@@ -1,9 +1,6 @@
 .main_block {
     position: var(--relative);
-    top: 75px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-top: 40px;
     height: 420px;
     display: var(--flex);
     justify-content: var(--start);

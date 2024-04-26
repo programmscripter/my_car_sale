@@ -5,6 +5,7 @@
     top: 74px;
     background: var(--bg_fff);
     border: 1px solid black;
+    width: 100%;
 }
 
 .main_block .main_block_inner {
