@@ -35,4 +35,6 @@
 .main_block .main_block_inner .grid .grid_inner {
     display: var(--grid);
     grid-template-columns: var(--auto) var(--auto) var(--auto) var(--auto) var(--auto) var(--auto);
+    gap: 10px;
+    padding-top: 12px;
 }
