@@ -1,10 +1,10 @@
 .main_block {
     position: var(--relative);
-    top: 40px;
+    top: 65px;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 400px;
+    height: 450px;
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
