@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from '../../../Css/More_brands_page_content_css/main_content.module.css';
+import { mainContentBrandsList } from './main_content_brands_list';
 
 const Main_content = () => {
     const title = "Review";
@@ -15,7 +16,11 @@ const Main_content = () => {
                     </div>
                     <p className={classes.second_title}>{title_3}</p>
                     <div className={classes.grid_inner}>
-                        
+                        {mainContentBrandsList.map((brand, index) => {
+                            return (
+                                
+                            )
+                        })}
                     </div>
                 </div>
             </div>
