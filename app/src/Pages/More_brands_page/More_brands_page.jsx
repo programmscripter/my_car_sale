@@ -10,11 +10,12 @@ const More_brands_page = () => {
       <div className={classes.main_block_inner}>
         <div className={classes.grid}>
           <div className={classes.title_block}>
-            <p >{title}</p>
-            <p>{title_2}</p>
+            <p className={classes.title}>{title}</p>
+            <p className={classes.under_title}>{title_2}</p>
           </div>
-          <p>{title_3}</p>
+          <p className={classes.second_title}>{title_3}</p>
           <div className={classes.grid_inner}>
+            
           </div>
         </div>
       </div>
