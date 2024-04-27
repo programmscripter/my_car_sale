@@ -1,0 +1,11 @@
+.block {
+    height: 300px;
+    width: 200px;
+    overflow: var(--hidden);
+    border-radius: 12px;
+}
+
+.img_block {
+    max-width: 199px;
+    
+}
