@@ -5,7 +5,11 @@ const More_brands_page = () => {
   return (
     <div className={classes.main_block}>
       <div className={classes.main_block_inner}>
-        <div className={classes.}></div>
+        <div className={classes.grid}>
+          <div className={classes.grid_inner}>
+            
+          </div>
+        </div>
       </div>
     </div>
   )
