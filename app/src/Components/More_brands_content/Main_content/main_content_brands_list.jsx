@@ -5,5 +5,5 @@ export const mainContentBrandsList = [
     {
         img: Mercedes_Benz_img,
         title: "Mercedes-Benz"
-    }
+    },
 ]
