@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from '../../../Css/bell.module.css';
+import classes from '../../../Css/Header_content_css/bell.module.css';
 import { Check_icon } from '../../../Svg/svg';
 
 const Bell = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../Css/animation.module.css';
+import classes from '../../Css/Home_page_content_css/animation.module.css';
 import video from '../../Videos/Mercedes_video.mp4';
 import ReactPlayer from 'react-player';
 
