@@ -37,7 +37,7 @@
     grid-template-columns: var(--auto) var(--auto) var(--auto) var(--auto) var(--auto) var(--auto);
     column-gap: 13px;
     row-gap: 17px;
-    padding-top: 12px;
+    padding-top: 15px;
 }
 
 .main_block .main_block_inner .grid .grid_inner a {
