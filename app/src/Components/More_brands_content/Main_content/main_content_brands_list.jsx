@@ -1,1 +1,5 @@
-export const list 
+export const mainContentBrandsList = [
+    {
+        
+    }
+]
