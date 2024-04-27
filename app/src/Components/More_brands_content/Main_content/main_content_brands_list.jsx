@@ -17,15 +17,15 @@ export const mainContentBrandsList = [
     },
     {
         img: Audi_img,
-        title: "Mercedes-Benz"
+        title: "Audi"
     },
     {
-        img: Mercedes_Benz_img,
-        title: "Mercedes-Benz"
+        img: BMW_img,
+        title: "BMW"
     },
     {
-        img: Mercedes_Benz_img,
-        title: "Mercedes-Benz"
+        img: Toyota_img,
+        title: "Toyota"
     },
     {
         img: Mercedes_Benz_img,
