@@ -15,7 +15,7 @@ const Main_content = () => {
                     </div>
                     <p className={classes.second_title}>{title_3}</p>
                     <div className={classes.grid_inner}>
-
+                        
                     </div>
                 </div>
             </div>
