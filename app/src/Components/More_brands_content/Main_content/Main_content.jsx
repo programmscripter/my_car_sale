@@ -1,4 +1,5 @@
 import React from 'react';
+import classes from '../../../Css/More_brands_page_content_css/main_content.module.css';
 
 const Main_content = () => {
     const title = "Review";
