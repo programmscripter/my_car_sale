@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../Css/Home_page_content_css/more_brands_page.module.css';
+import classes from '../../Css/More_brands_page_content_css/more_brands_page.module.css';
 import Main_content from '../../Components/More_brands_content/Main_content/Main_content';
 
 const More_brands_page = () => {
