@@ -24,6 +24,7 @@ const Main_content = () => {
                                     index={index}
                                     img={index.img}
                                     title={index.title}
+                                    under_title={index.under_title}
                                 />
                             )
                         })}
