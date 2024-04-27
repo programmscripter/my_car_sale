@@ -13,6 +13,7 @@
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
+    border-bottom: 1px var(--solid) var(--color_000);
 }
 
 .block .img_block img {
@@ -22,4 +23,6 @@
 
 .block .txt_block .title {
     font-family: var(--font_family);
+    color: var(--color_000);
+    font-weight: 600;
 }
