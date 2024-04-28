@@ -1,0 +1,48 @@
+:root {
+    --color_fff: #fff;
+    --color_000: #000;
+    --bg_fff: #fff;
+    --bg_4a4a4a: #4a4a4a;
+    --color_4a4a4a: #4a4a4a;
+    --color_rgb_7_181_7: rgb(7, 181, 7);
+    --bg_rgb_247_247_247: rgb(247,247,247);
+    --color_aaaaaa: #aaaaaa;
+    --bg_000: #000;
+    --font_family: 'Gibson', 'Tahoma', 'Arial', sans-serif;
+    --margin_0_auto: 0 auto;
+    --auto: auto;
+    --center: center;
+    --cover: cover;
+    --relative: relative;
+    --flex: flex;
+    --block: block;
+    --hidden: hidden;
+    --fixed: fixed;
+    --space_between: space-between;
+    --blur_30: blur(30px);
+    --blur_3: blur(3px);
+    --inherit: inherit;
+    --infinite: infinite;
+    --ease_in_out: ease-in-out;
+    --absolute: absolute;
+    --grid: grid;
+    --solid: solid;
+    --color_929292: #929292;
+    --color_d6d6d6: #d6d6d6;
+    --color_5d08dc: #5d08dc;
+    --none: none;
+    --start: start;
+    --underline: underline;
+    --pointer: pointer;
+}
+
+.container {
+    max-width: 1536px;
+    margin: var(--margin_0_auto);
+    overflow: var(--hidden);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

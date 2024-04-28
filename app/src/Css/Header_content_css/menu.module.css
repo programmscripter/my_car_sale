@@ -1,0 +1,101 @@
+.menu {
+    display: var(--flex);
+    align-items: var(--center);
+    column-gap: 10px;
+}
+
+.menu .menu_btn {
+    font-family: var(--font_family) !important;
+    text-transform: var(--inherit) !important;
+    color: var(--color_000) !important;
+    font-size: 30px;
+    max-width: 70px;
+}
+
+.menu .bell_btn {
+    font-family: var(--font_family) !important;
+    text-transform: var(--inherit) !important;
+    color: var(--color_000) !important;
+    font-size: 23px;
+    max-width: 70px;
+}
+
+.menu a .user_btn {
+    font-family: var(--font_family) !important;
+    text-transform: var(--inherit) !important;
+    color: var(--color_000) !important;
+    font-size: 23px;
+    max-width: 70px;
+}
+
+.menu a .reg_btn {
+    background: var(--bg_000);
+    color: var(--color_fff);
+    text-transform: var(--inherit);
+    font-family: var(--font_family);
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 26px;
+    width: 120px;
+    height: 44px;
+    max-width: 150px;
+}
+
+.menu a .reg_btn:hover {
+    background: var(--bg_4a4a4a);
+}
+
+.menu .hover_box {
+    position: var(--fixed);
+    height: 380px;
+    width: 1210px;
+    top: 75px;
+    background: var(--bg_fff);
+    padding: 10px 20px;
+    right: var(--auto);
+    left: var(--auto);
+    margin-left: -895px;
+    overflow-y: var(--hidden);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top: 1px var(--solid) var(--color_000);
+    padding: 15px 18px;
+    border: 1px var(--solid) var(--color_000);
+}
+
+.menu .hover_box .hover_box_inner {
+    height: 370px;
+    display: var(--grid);
+    grid-template-columns: var(--auto) var(--auto) var(--auto);
+    justify-content: var(--center);
+    padding-top: 10px;
+    column-gap: 180px;
+    overflow-y: var(--auto);
+    overflow-x: var(--hidden);
+}
+
+.menu .hover_box .hover_box_inner .block {
+    display: var(--grid);
+    grid-template-columns: var(--auto);
+    padding-bottom: 40px;
+    row-gap: 8px;
+}
+
+.menu .hover_box .hover_box_inner .block p {
+    font-family: var(--font_family);
+    color: var(--color_000);
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.menu .hover_box .hover_box_inner .block a Button {
+    font-family: var(--font_family);
+    color: var(--color_000);
+    text-transform: var(--inherit);
+    background: var(--bg_fff);
+    display: var(--flex);
+    justify-content: var(--start);
+    align-items: var(--center);
+    width: var(--auto);
+    height: 38px;
+}

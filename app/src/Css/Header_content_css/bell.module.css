@@ -1,0 +1,67 @@
+.block {
+    position: var(--fixed);
+    top: 75px;
+    right: 195px;
+    z-index: 1000;
+    background: var(--bg_fff);
+    border-top: 1px var(--solid) var(--color_000);
+    overflow: var(--hidden);
+    width: 370px;
+    height: 240px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px var(--solid) var(--color_000);
+}
+
+.block .block_inner {
+    overflow-x: var(--hidden);
+    overflow-y: var(--auto);
+    text-align: var(--center);
+    display: var(--grid);
+    grid-template-columns: var(--auto);
+    row-gap: 10px;
+}
+
+.block .block_inner .img_block {
+    display: var(--grid);
+    grid-template-columns: var(--auto);
+    row-gap: 10px;
+    justify-content: var(--center);
+    align-items: var(--center);
+    width: var(--auto);
+}
+
+.block .block_inner .img_block .check_icon {
+    font-family: var(--font_family);
+    font-size: 60px;
+    color: var(--color_rgb_7_181_7);
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    padding-top: 8px;
+}
+
+.block .block_inner .img_block .title {
+    font-family: var(--font_family);
+    color: var(--color_000);
+    font-size: 18px;
+    width: 200px;
+    font-weight: 600;
+    text-align: var(--center);
+}
+
+.block .block_inner .txt_block {
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    position: var(--relative);
+    top: -25px;
+}
+
+.block .block_inner .txt_block p {
+    font-family: var(--font_family);
+    color: var(--color_000);
+    font-weight: 500;
+    font-size: 16px;
+    width: 240px;
+}

@@ -1,0 +1,31 @@
+.main_block {
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+.main_block .block .block_inner {
+    height: var(--auto);
+    overflow: var(--hidden);
+    text-align: var(--center);
+}
+
+.main_block .block .block_inner p {
+    font-family: var(--font_family);
+    color: var(--color_fff);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.main_block .block .block_inner Button {
+    font-family: var(--font_family);
+    text-transform: var(--inherit);
+    color: var(--color_000);
+    background: var(--bg_fff);
+    color: var(--color_000);
+    font-size: 15.3px;
+    width: 300px;
+    height: 55px;
+    border-radius: 30px;
+    font-weight: 600;
+}

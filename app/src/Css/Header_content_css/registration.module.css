@@ -1,0 +1,80 @@
+.block_inner {
+    background: var(--bg_fff);
+    border-radius: 7px;
+    border: 1px var(--solid) var(--color_000);
+    max-width: 490px;
+    margin: var(--margin_0_auto);
+    overflow: var(--hidden);
+    text-align: var(--center);
+    padding: 10px 25px;
+}
+
+.block_inner .top_block {
+    border-bottom: 1px var(--solid) var(--color_000);
+}
+
+.block_inner .top_block .title {
+    font-family: var(--font_family);
+    color: var(--color_000);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.block_inner .center_block {
+    padding-top: 25px;
+    display: var(--grid);
+    grid-template-columns: var(--auto) var(--auto);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.block_inner .choose_block {
+    padding-top: 15px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    column-gap: 20px;
+}
+
+.block_inner .choose_block p {
+    font-family: var(--font_family);
+    color: var(--color_000);
+    font-weight: 600;
+}
+
+.block_inner .bottom_block {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.block_inner .bottom_block p {
+    font-family: var(--font_family);
+    font-size: 15px;
+    color: var(--color_000);
+}
+
+.block_inner .bottom_block .log_in_btn {
+    font-family: var(--font_family);
+    color: var(--color_5d08dc);
+    font-size: 14px;
+    text-transform: var(--inherit);
+    background: var(--none);
+    width: 50px;
+    border: var(--none);
+    cursor: var(--pointer);
+}
+
+.block_inner .bottom_block .log_in_btn:hover {
+    background: var(--none);
+    text-decoration: var(--underline);
+}
+
+.block_inner .bottom_block a .reg_btn {
+    font-family: var(--font_family);
+    color: var(--color_fff);
+    background: var(--bg_000);
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 200px;
+    font-weight: 600;
+}

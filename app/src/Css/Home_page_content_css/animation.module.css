@@ -1,0 +1,14 @@
+.video_block {
+    position: var(--relative);
+    top: 75px;
+    max-height: 630px;
+    overflow: var(--hidden);
+    object-fit: var(--cover);
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+.video_block .video {
+    position: var(--absolute);
+}
