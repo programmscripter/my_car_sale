@@ -9,13 +9,13 @@
     max-width: 155px;
     overflow: var(--hidden);
     height: 150px;
-    padding: 12px 0;
+    padding: 12px 10px;
     object-fit: var(--cover);
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
     border-bottom: 1px var(--solid) var(--color_000);
-    background: ;
+    background: var(--bg_rgb_247_247_247);
 }
 
 .block .img_block img {
