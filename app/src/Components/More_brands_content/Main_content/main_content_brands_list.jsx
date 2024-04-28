@@ -32,16 +32,16 @@ export const mainContentBrandsList = [
         title: "Renault"
     },
     {
-        img: Mercedes_Benz_img,
-        title: "Mercedes-Benz"
+        img: Ford_img,
+        title: "Ford"
     },
     {
-        img: Mercedes_Benz_img,
-        title: "Mercedes-Benz"
+        img: Hyundai_img,
+        title: "Hyundai"
     },
     {
-        img: Mercedes_Benz_img,
-        title: "Mercedes-Benz"
+        img: Volkswagen_img,
+        title: "Volkswagen"
     },
     {
         img: Mercedes_Benz_img,
