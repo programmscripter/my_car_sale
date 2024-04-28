@@ -53,11 +53,13 @@ export const mainContentBrandsList = [
     },
     {
         img: Volvo_img,
-        title: "Mercedes-Benz"
+        title: "Mercedes-Benz",
+        under_title: "12 Series"
     },
     {
         img: Skoda_img,
-        title: "Skoda"
+        title: "Skoda",
+        under_title: "9 Series"
     },
     {
         img: Tesla_img,
