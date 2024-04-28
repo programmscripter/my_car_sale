@@ -3,6 +3,10 @@
     width: 230px;
     overflow: var(--hidden);
     border-radius: 12px;
+    border: 1px var(--solid) var(--color_aaaaaa);
+}
+
+.block:hover {
     box-shadow: 5px 8px 6px var(--color_aaaaaa);
 }
 
