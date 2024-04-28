@@ -1,3 +1,7 @@
+.main_block {
+    padding-top: 65px;
+}
+
 .main_block .main_block_inner {
     max-width: 1240px;
     margin: var(--margin_0_auto);
@@ -8,7 +12,12 @@
     padding: 10px 15px;
 }
 
-.main_block .main_block_inner .grid .title_block .
+.main_block .main_block_inner .grid .title_block .title {
+    font-family: var(--font_family);
+    color: var(--color_000);
+    font-size: 20px;
+    font-weight: 600;
+}
 
 .main_block .main_block_inner .grid .grid_inner {
     display: var(--grid);
