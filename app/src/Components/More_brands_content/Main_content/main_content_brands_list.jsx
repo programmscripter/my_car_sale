@@ -33,19 +33,23 @@ export const mainContentBrandsList = [
     },
     {
         img: Renault_img,
-        title: "Renault"
+        title: "Renault",
+        under_title: "18 Series"
     },
     {
         img: Ford_img,
-        title: "Ford"
+        title: "Ford",
+        under_title: "18 Series"
     },
     {
         img: Hyundai_img,
-        title: "Hyundai"
+        title: "Hyundai",
+        under_title: "25 Series"
     },
     {
         img: Volkswagen_img,
-        title: "Volkswagen"
+        title: "Volkswagen",
+        under_title: "22 Series"
     },
     {
         img: Volvo_img,
