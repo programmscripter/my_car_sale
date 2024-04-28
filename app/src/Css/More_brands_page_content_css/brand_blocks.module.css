@@ -6,14 +6,16 @@
 }
 
 .block .img_block {
-    max-width: 199px;
+    max-width: 155px;
     overflow: var(--hidden);
     height: 150px;
+    padding: 12px 0;
     object-fit: var(--cover);
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
     border-bottom: 1px var(--solid) var(--color_000);
+    background: ;
 }
 
 .block .img_block img {
