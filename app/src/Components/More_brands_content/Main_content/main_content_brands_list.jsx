@@ -44,7 +44,7 @@ export const mainContentBrandsList = [
         title: "Volkswagen"
     },
     {
-        img: Mercedes_Benz_img,
+        img: Volvo_img,
         title: "Mercedes-Benz"
     },
     {
