@@ -13,7 +13,8 @@ import Hyundai_img from '../../../Images/Brands_img/Hyundai_img.png';
 export const mainContentBrandsList = [
     {
         img: Mercedes_Benz_img,
-        title: "Mercedes-Benz"
+        title: "Mercedes-Benz",
+        under_title: ""
     },
     {
         img: Audi_img,
