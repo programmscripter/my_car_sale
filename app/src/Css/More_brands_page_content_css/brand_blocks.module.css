@@ -1,15 +1,14 @@
 .block {
     height: 300px;
-    width: 200px;
+    width: 230px;
     overflow: var(--hidden);
     border-radius: 12px;
 }
 
 .block .img_block {
-    max-width: 155px;
+    max-width: 180px;
     overflow: var(--hidden);
-    height: 150px;
-    padding: 12px 10px;
+    height: 180px;
     object-fit: var(--cover);
     display: var(--flex);
     justify-content: var(--center);
@@ -19,8 +18,8 @@
 }
 
 .block .img_block img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 
 .block .txt_block .title {
