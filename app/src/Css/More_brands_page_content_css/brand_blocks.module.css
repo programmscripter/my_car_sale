@@ -3,6 +3,7 @@
     width: 230px;
     overflow: var(--hidden);
     border-radius: 12px;
+    box-shadow: ;
 }
 
 .block .img_block {
