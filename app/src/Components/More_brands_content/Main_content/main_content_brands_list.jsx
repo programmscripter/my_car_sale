@@ -66,4 +66,9 @@ export const mainContentBrandsList = [
         title: "Tesla",
         under_title: "14 Series"
     },
+    {
+        img: Porsa,
+        title: "Tesla",
+        under_title: "14 Series"
+    },
 ]
