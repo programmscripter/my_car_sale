@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Brand_blocks = ({ img, title, under_title, index }) => {
   return (
-    <Link to={`/brand/}`}>
+    <Link to={`/brand/${index}`}>
       <div className={classes.block}>
         <div className={classes.img_block}>
           <img src={img} alt="" />
