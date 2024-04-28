@@ -9,7 +9,7 @@
 .block .img_block {
     max-width: 230px;
     overflow: var(--hidden);
-    height: 180px;
+    height: 215px;
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
@@ -18,8 +18,9 @@
 }
 
 .block .img_block img {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    object-fit: var(--cover);
+    height: 85%;
 }
 
 .block .txt_block .title {
