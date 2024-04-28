@@ -28,7 +28,7 @@
     height: 87%;
 }
 
-.block .txt_block .title {
+.block .title_block .title {
     font-family: var(--font_family);
     color: var(--color_000);
     font-weight: 600;
