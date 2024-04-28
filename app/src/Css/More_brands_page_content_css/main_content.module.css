@@ -12,6 +12,10 @@
     padding: 10px 15px;
 }
 
+.main_block .main_block_inner .grid .title_block {
+    text-align: var(--center);
+}
+
 .main_block .main_block_inner .grid .title_block .title {
     font-family: var(--font_family);
     color: var(--color_000);
