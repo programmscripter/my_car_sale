@@ -32,7 +32,7 @@
     font-family: var(--font_family);
     color: var(--color_000);
     font-weight: 600;
-    font-weight: 18px;
+    font-size: ;
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
@@ -41,7 +41,7 @@
 .block .title_block .under_title {
     font-family: var(--font_family);
     color: var(--color_aaaaaa);
-    font-weight: 600;
+    font-weight: 500;
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
