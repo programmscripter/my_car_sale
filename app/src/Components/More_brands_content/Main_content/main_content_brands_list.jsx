@@ -9,6 +9,7 @@ import Tesla_img from '../../../Images/Brands_img/Tesla_img.png';
 import Skoda_img from '../../../Images/Brands_img/Skoda_img.png';
 import Volkswagen_img from '../../../Images/Brands_img/Volkswagen_img.png';
 import Hyundai_img from '../../../Images/Brands_img/Hyundai_img.png';
+import Porsche_img from '../../../Images/Brands_img/Porsche_img.png';
 
 export const mainContentBrandsList = [
     {
@@ -67,8 +68,8 @@ export const mainContentBrandsList = [
         under_title: "14 Series"
     },
     {
-        img: Porsa,
-        title: "Tesla",
-        under_title: "14 Series"
+        img: Porsche_img,
+        title: "Porsche",
+        under_title: "17 Series"
     },
 ]
