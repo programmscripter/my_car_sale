@@ -15,7 +15,7 @@ a .block {
 
 a .block:hover {
     transition: 0.25s var(--ease_in_out);
-    box-shadow: 0 0 8px var(--color_000);
+    box-shadow: 5px 8px 6px var(--color_aaaaaa);
 }
 
 a .block:hover > .txt_block p {

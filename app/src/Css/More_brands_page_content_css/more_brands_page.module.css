@@ -1,0 +1,5 @@
+.main_block_inner {
+    max-width: 1240px;
+    margin: var(--margin_0_auto);
+    overflow: var(--hidden);
+}
