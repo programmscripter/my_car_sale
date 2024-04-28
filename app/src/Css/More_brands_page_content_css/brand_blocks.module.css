@@ -1,9 +1,10 @@
 .block {
     height: 300px;
-    width: 230px;
+    width: 250px;
     overflow: var(--hidden);
     border-radius: 12px;
     border: 1px var(--solid) var(--color_aaaaaa);
+    transition: 0.2s var(--ease_in_out);
 }
 
 .block:hover {
@@ -11,7 +12,7 @@
 }
 
 .block .img_block {
-    max-width: 230px;
+    max-width: 250px;
     overflow: var(--hidden);
     height: 215px;
     display: var(--flex);
@@ -22,9 +23,9 @@
 }
 
 .block .img_block img {
-    width: 80%;
+    width: 74.7%;
     object-fit: var(--cover);
-    height: 85%;
+    height: 87%;
 }
 
 .block .txt_block .title {
