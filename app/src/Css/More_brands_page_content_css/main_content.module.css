@@ -15,6 +15,9 @@
 
 .main_block .main_block_inner .grid .title_block {
     padding: 15px 0;
+    max-width: 1230px;
+    margin: var(--margin_0_auto);
+    
 }
 
 .main_block .main_block_inner .grid .title_block .title {
