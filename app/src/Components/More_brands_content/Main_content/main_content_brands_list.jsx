@@ -14,19 +14,22 @@ export const mainContentBrandsList = [
     {
         img: Mercedes_Benz_img,
         title: "Mercedes-Benz",
-        under_title: ""
+        under_title: "28 Series"
     },
     {
         img: Audi_img,
-        title: "Audi"
+        title: "Audi",
+        under_title: "15 Series"
     },
     {
         img: BMW_img,
-        title: "BMW"
+        title: "BMW",
+        under_title: "16 Series"
     },
     {
         img: Toyota_img,
-        title: "Toyota"
+        title: "Toyota",
+        under_title: "18 Series"
     },
     {
         img: Renault_img,
