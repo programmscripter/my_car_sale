@@ -48,7 +48,11 @@ export const mainContentBrandsList = [
         title: "Mercedes-Benz"
     },
     {
-        img: Mercedes_Benz_img,
-        title: "Mercedes-Benz"
+        img: Skoda_img,
+        title: "Skoda"
+    },
+    {
+        img: Tesla_img,
+        title: "Tesla"
     },
 ]
