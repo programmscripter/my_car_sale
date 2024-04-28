@@ -28,8 +28,8 @@ export const mainContentBrandsList = [
         title: "Toyota"
     },
     {
-        img: Mercedes_Benz_img,
-        title: "Mercedes-Benz"
+        img: Renault_img,
+        title: "Renault"
     },
     {
         img: Mercedes_Benz_img,
