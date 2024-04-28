@@ -40,7 +40,7 @@
 
 .block .title_block .under_title {
     font-family: var(--font_family);
-    color: var(--color_000);
+    color: var(--color_aaaaaa);
     font-weight: 600;
     display: var(--flex);
     justify-content: var(--center);

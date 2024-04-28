@@ -63,6 +63,7 @@ export const mainContentBrandsList = [
     },
     {
         img: Tesla_img,
-        title: "Tesla"
+        title: "Tesla",
+        under_title: "14 Series"
     },
 ]
