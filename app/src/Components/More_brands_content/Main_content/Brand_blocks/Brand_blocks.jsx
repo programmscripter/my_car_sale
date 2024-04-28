@@ -10,8 +10,8 @@ const Brand_blocks = ({ img, title, under_title, index }) => {
           <img src={img} alt="" />
         </div>
         <div className={classes.title_block}>
-          <p>{title}</p>
-          <p>{under_title}</p>
+          <p className={classes.title}>{title}</p>
+          <p className={classes.under_title}>{under_title}</p>
         </div>
       </div>
     </Link>

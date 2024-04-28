@@ -32,4 +32,11 @@
     font-family: var(--font_family);
     color: var(--color_000);
     font-weight: 600;
+    font-weight: 18px;
+}
+
+.block .title_block .under_title {
+    font-family: var(--font_family);
+    color: var(--color_000);
+    font-weight: 600;
 }
