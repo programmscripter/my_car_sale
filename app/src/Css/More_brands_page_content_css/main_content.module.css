@@ -8,6 +8,12 @@
     padding: 10px 15px;
 }
 
+.main_block .main_block_inner .grid .title_block .
+
 .main_block .main_block_inner .grid .grid_inner {
-    
+    display: var(--grid);
+    grid-template-columns: var(--auto) var(--auto) var(--auto);
+    column-gap: 15px;
+    row-gap: 13px;
 }
+
