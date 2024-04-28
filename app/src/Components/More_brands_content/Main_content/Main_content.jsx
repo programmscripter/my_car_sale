@@ -22,9 +22,9 @@ const Main_content = () => {
                                 <Brand_blocks 
                                     key={index}
                                     index={index}
-                                    img={index.img}
-                                    title={index.title}
-                                    under_title={index.under_title}
+                                    img={brand.img}
+                                    title={brand.title}
+                                    under_title={brand.under_title}
                                 />
                             )
                         })}
