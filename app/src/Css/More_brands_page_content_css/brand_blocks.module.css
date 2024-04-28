@@ -9,7 +9,6 @@
     max-width: 180px;
     overflow: var(--hidden);
     height: 180px;
-    object-fit: var(--cover);
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
@@ -20,6 +19,7 @@
 .block .img_block img {
     width: 90%;
     height: 90%;
+    object-fit: var(--cover);
 }
 
 .block .txt_block .title {
