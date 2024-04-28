@@ -30,6 +30,10 @@
     font-size: 14.8px;
 }
 
+.main_block .main_block_inner .grid .second_title {
+    font-family: var(--font_family);
+}
+
 .main_block .main_block_inner .grid .grid_inner {
     display: var(--grid);
     grid-template-columns: var(--auto) var(--auto) var(--auto);
