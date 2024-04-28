@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../../Css/logotype.module.css';
+import classes from '../../../Css/Header_content_css/logotype.module.css';
 import headerPicturesFile from '../../../Helpers/Pictures';
 import { Link } from 'react-router-dom';
 

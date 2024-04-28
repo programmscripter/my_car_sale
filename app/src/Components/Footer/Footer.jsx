@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../Css/footer.module.css';
+import classes from '../../Css/Footer_content_css/footer.module.css';
 import { Link } from 'react-router-dom';
 import { footer_menu_1, footer_menu_2, footer_menu_3, footer_menu_4 } from './footer_list';
 import { Icons } from './footer_icons_list';

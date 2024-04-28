@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../Css/home.module.css';
+import classes from '../../Css/Home_page_content_css/home.module.css';
 import Animation from '../../Components/Animation/Animation';
 import Top_content from '../../Components/Home_contents/Top_content/Top_content';
 import Popular_brands_content from '../../Components/Home_contents/Popular_brands_content/Popular_brands_content';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import classes from '../../../Css/registration.module.css';
+import classes from '../../../Css/Header_content_css/registration.module.css';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Radio from '@mui/material/Radio';
